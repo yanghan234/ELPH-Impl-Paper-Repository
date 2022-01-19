@@ -1,0 +1,17 @@
+&inputpp
+  prefix     = "b",
+  outdir     = "./"
+  plot_num   = 7,
+  filplot    = "wfc",
+  kpoint(1)  = 1,
+  ! kpoint(2)  = 1,
+  kband(1)   = 1,
+  kband(2)   = 50,
+  ! spin_component(1) = 1,
+  ! spin_component(2) = 1,
+/
+&plot
+  iflag         = 3,
+  output_format = 5,
+  fileout       = ".xsf"
+/

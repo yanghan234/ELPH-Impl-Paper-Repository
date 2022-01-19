@@ -1,0 +1,29 @@
+
+.Version 8.8.2 of ABINIT 
+.(MPI version, prepared for a x86_64_linux_intel16.0 computer) 
+
+.Copyright (C) 1998-2018 ABINIT group . 
+ ABINIT comes with ABSOLUTELY NO WARRANTY.
+ It is free software, and you are welcome to redistribute it
+ under certain conditions (GNU General Public License,
+ see ~abinit/COPYING or http://www.gnu.org/copyleft/gpl.txt).
+
+ ABINIT is a project of the Universite Catholique de Louvain,
+ Corning Inc. and other collaborators, see ~abinit/doc/developers/contributors.txt .
+ Please read ~abinit/doc/users/acknowledgments.html for suggested
+ acknowledgments of the ABINIT effort.
+ For more information, see https://www.abinit.org .
+
+.Starting date : Tue 15 Dec 2020.
+- ( at 15h34 )
+  
+- The starting date is more than 2 years after the initial release
+- of this version of ABINIT, namely May 2018.
+- Note that the use beyond 3 years after the release will not be supported.
+- Action: please, switch to a more recent version of ABINIT.
+ 
+- input  file    -> diamond_gw_ppm.in
+- output file    -> diamond_gw_ppm.out
+- root for input  files -> diamond_gw_ppm_i
+- root for output files -> diamond_gw_ppm_o
+ 

@@ -1,0 +1,41 @@
+#!/bin/bash
+#SBATCH --job-name=c6
+#SBATCH --output=test_sbatch.out
+#SBATCH --error=test_sbatch.err
+#SBATCH --time=02:00:00
+#SBATCH --account=pi-gagalli
+#SBATCH --partition=gagalli-brdwl
+#SBATCH --qos=gagalli-debug
+#SBATCH --nodes=4
+##SBATCH --mail-user=yanghan@uchicago.edu
+##SBATCH --mail-type=ALL
+#SBATCH --ntasks-per-node=20
+##SBATCH --constraint=e5-2680v2
+
+# LOAD MODULE ENVIRONMENT
+#module load  espresso/6.0-west-2.0+intelmpi-5.1+intel-16.0
+#
+module unload intelmpi intel mkl Anaconda3
+module load intelmpi/5.1+intel-16.0 mkl fftw3/3.3.5+intelmpi-5.1+intel-16.0
+# RUN JOB BELOW
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < relax-nospin.in >& relax-nospin.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pp.x < pp.in >& pp.out
+
+# ## Run WELPH calculations
+PREFIX=c
+mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < scf.in >& scf.out
+mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < nscf-nosymm.in >& nscf-nosymm.out
+mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wstat.x -nimage 4 -i wstat.in >& wstat.out
+for i in 200
+do
+  rm -rf $PREFIX.welph.save.pdep$i
+  mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph$i.XP.in >& welph$i.XP.out
+  mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph$i.S.in >&  welph$i.S.out
+  mv $PREFIX.dvscf*     $PREFIX.welph.save
+  mv $PREFIX.welph.save $PREFIX.welph.save.pdep$i
+done
+# 
+# ## Run QE PHonon calculation
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < nscf-symm.in >& nscf-symm.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest-untouched/bin/ph.x < ph.in >& ph.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest-untouched/bin/dynmat.x < dynmat.in >& dynmat.out

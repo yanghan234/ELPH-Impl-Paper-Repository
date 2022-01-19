@@ -1,0 +1,255 @@
+
+     Program PWSCF v.6.1 (svn rev. 13369) starts on  8Dec2020 at  9:22:51 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      80 processor cores
+     Number of MPI processes:                80
+     Threads/MPI process:                     1
+     R & G space division:  proc/nbgrp/npool/nimage =      80
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+
+     Atomic positions and unit cell read from directory:
+     ./c.save/
+ 
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+               file C.pz-mt.fhi.UPF: wavefunction(s)  3d renormalized
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     scalapack distributed-memory algorithm (size of sub-group:  6*  6 procs)
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           6       6      1                   88       88      12
+     Max           8       8      2                   91       91      18
+     Sum         499     499    151                 7119     7119    1243
+ 
+
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       6.7034  a.u.
+     unit-cell volume          =      73.5168 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.00
+     number of Kohn-Sham states=            8
+     kinetic-energy cutoff     =      80.0000  Ry
+     charge density cutoff     =     320.0000  Ry
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+
+     celldm(1)=   6.703426  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  -0.496008  -0.000000   0.496008 )  
+               a(2) = (  -0.000000   0.496008   0.496008 )  
+               a(3) = (  -0.496008   0.496008   0.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -1.008048 -1.008048  1.008048 )  
+               b(2) = (  1.008048  1.008048  1.008048 )  
+               b(3) = ( -1.008048  1.008048 -1.008048 )  
+
+
+     PseudoPot. # 1 for  C read from file:
+     ../C.pz-mt.fhi.UPF
+     MD5 check sum: b7c38bc33a0cf75f44be89b84470f298
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  461 points,  2 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.01100      C( 1.00)
+
+     24 Sym. Ops. (no inversion) found
+          (note: 24 additional sym.ops. were found but ignored
+           their fractional translations are incommensurate with FFT grid)
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           C   tau(   1) = (  -0.0000000  -0.0000000   0.0000000  )
+         2           C   tau(   2) = (  -0.2480040   0.2480040   0.2480040  )
+
+     number of k points=     3
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.2500000
+        k(    2) = (   0.5040241  -0.5040241   0.5040241), wk =   1.0000000
+        k(    3) = (   0.0000000  -1.0080483   0.0000000), wk =   0.7500000
+
+     Dense  grid:     7119 G-vectors     FFT dimensions: (  27,  27,  27)
+
+     Estimated max dynamical RAM per process >       0.24MB
+
+     Estimated total allocated dynamical RAM >      19.55MB
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+
+     The potential is recalculated from file :
+     ./c.save/charge-density.dat
+
+     Starting wfc are   18 randomized atomic wfcs
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+
+     ethr =  1.25E-12,  avg # of iterations =  9.7
+
+     total cpu time spent up to now is        1.4 secs
+
+     End of band structure calculation
+
+          k = 0.0000 0.0000 0.0000 (   893 PWs)   bands (ev):
+
+    -8.0779  13.7330  13.7330  13.7330  19.4076  19.4076  19.4076  28.0546
+
+          k = 0.5040-0.5040 0.5040 (   886 PWs)   bands (ev):
+
+    -1.9881  -0.0092  10.8518  10.8518  22.3162  22.3162  23.2865  29.5406
+
+          k = 0.0000-1.0080 0.0000 (   894 PWs)   bands (ev):
+
+     0.9027   0.9027   7.2285   7.2285  18.5988  18.5988  30.9603  30.9603
+
+     highest occupied, lowest unoccupied level (ev):    13.7330   18.5988
+
+     Writing output data file c.save
+ 
+     init_run     :      0.07s CPU      0.26s WALL (       1 calls)
+     electrons    :      0.22s CPU      0.82s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
+     potinit      :      0.00s CPU      0.01s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :      0.22s CPU      0.82s WALL (       1 calls)
+     v_of_rho     :      0.00s CPU      0.00s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.00s CPU      0.00s WALL (       3 calls)
+     cegterg      :      0.19s CPU      0.66s WALL (       3 calls)
+
+     Called by sum_band:
+
+     Called by *egterg:
+     h_psi        :      0.03s CPU      0.14s WALL (      35 calls)
+     g_psi        :      0.00s CPU      0.00s WALL (      29 calls)
+     cdiaghg      :      0.10s CPU      0.33s WALL (      32 calls)
+
+     Called by h_psi:
+     h_psi:pot    :      0.03s CPU      0.14s WALL (      35 calls)
+     h_psi:calbec :      0.00s CPU      0.00s WALL (      35 calls)
+     vloc_psi     :      0.03s CPU      0.13s WALL (      35 calls)
+     add_vuspsi   :      0.00s CPU      0.00s WALL (      35 calls)
+
+     General routines
+     calbec       :      0.00s CPU      0.00s WALL (      35 calls)
+     fft          :      0.00s CPU      0.01s WALL (       3 calls)
+     fftw         :      0.02s CPU      0.13s WALL (     546 calls)
+ 
+     Parallel routines
+     fft_scatter  :      0.02s CPU      0.08s WALL (     549 calls)
+ 
+     PWSCF        :     0.45s CPU         1.89s WALL
+
+ 
+   This run was terminated on:   9:22:53   8Dec2020            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

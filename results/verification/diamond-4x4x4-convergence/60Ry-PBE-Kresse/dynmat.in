@@ -1,0 +1,6 @@
+&INPUT
+  fildyn='./_ph0/c.dyn1',
+  amass(1)=12.011,
+  asr = 'simple',
+  filout = 'c.asr.dyn1'
+/

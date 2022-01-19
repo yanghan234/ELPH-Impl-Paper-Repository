@@ -1,0 +1,5 @@
+&input
+  fildyn = 'c.welph.save.pdep200/dyn',
+  zasr   = 'simple',
+  flfrc  = 'c_welph.frc'
+/

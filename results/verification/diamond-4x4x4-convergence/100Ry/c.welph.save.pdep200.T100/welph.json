@@ -1,0 +1,1499 @@
+{
+  "runjob": {
+    "startdate": "20Jan2021",
+    "starttime": "11:27:42",
+    "completed": true,
+    "endtime": "11:28:33",
+    "enddate": "20Jan2021"
+  },
+  "software": {
+    "package": "WEST",
+    "program": "WELPH",
+    "version": "3.1.1",
+    "website": "http://www.west-code.org",
+    "citation": "M. Govoni et al., J. Chem. Theory Comput. 11, 2680 (2015).",
+    "qeversion": "6.1",
+    "qesvn": "13369"
+  },
+  "config": {
+    "io": {
+      "islittleendian": true
+    }
+  },
+  "parallel": {
+    "nranks": 40,
+    "nimage": 2,
+    "npool": 1,
+    "nbgrp": 1,
+    "nrg": 20,
+    "nproc": 40,
+    "nthreads": 1
+  },
+  "input": {
+    "input_west": {
+      "qe_prefix": "c",
+      "west_prefix": "c",
+      "outdir": "./"
+    },
+    "wstat_control": {
+      "wstat_calculation": "S",
+      "n_pdep_eigen": 200,
+      "n_pdep_times": 4,
+      "n_pdep_maxiter": 100,
+      "n_dfpt_maxiter": 250,
+      "n_pdep_read_from_file": 0,
+      "trev_pdep": 0.1E-2,
+      "trev_pdep_rel": 0.10000000000000001E+0,
+      "tr2_dfpt": 0.99999999999999998E-12,
+      "l_kinetic_only": false,
+      "l_minimize_exx_if_active": false,
+      "l_use_ecutrho": false,
+      "l_use_symm": true,
+      "nq": [
+        4,
+        4,
+        4
+      ]
+    },
+    "wfreq_control": {
+      "wfreq_calculation": "XWGQ",
+      "n_pdep_eigen_to_use": 200,
+      "qp_bandrange": [
+        1,
+        2
+      ],
+      "macropol_calculation": "C",
+      "n_lanczos": 30,
+      "n_imfreq": 128,
+      "n_refreq": 272,
+      "ecut_imfreq": 0.4E+3,
+      "ecut_refreq": 0.2E+1,
+      "wfreq_eta": 0.36749999999999999E-2,
+      "n_secant_maxiter": 21,
+      "trev_secant": 0.36749999999999999E-2,
+      "l_enable_lanczos": true,
+      "l_enable_gwetot": false,
+      "o_restart_time": 0.0E+0,
+      "ecut_spectralf": [
+        -0.2E+1,
+        0.2E+1
+      ],
+      "n_spectralf": 10,
+      "l_read_common_pdep": false,
+      "l_enable_gb_curvature": true
+    },
+    "welph_control": {
+      "welph_calculation": "S         ",
+      "welph_n_pdep_eigen_to_use": 200,
+      "asr": 1,
+      "welph_band_range": [
+        1,
+        8
+      ],
+      "do_scr": true,
+      "do_fxc": true,
+      "welph_read_common_pdep": true,
+      "loto": false,
+      "lsym": false,
+      "l_adiabatic": true,
+      "l_enable_gw": false,
+      "q_direction": [
+        0.1E+1,
+        0.0E+0,
+        0.0E+0
+      ],
+      "welph_eta": 0.10000000000000001E+0,
+      "temperature": 0.1E+3
+    }
+  },
+  "system": {
+    "basis": {
+      "npw": {
+        "proc": [
+          63,
+          66,
+          64,
+          64,
+          64,
+          66,
+          63,
+          64,
+          64,
+          60,
+          59,
+          69,
+          69,
+          67,
+          62,
+          66,
+          66,
+          64,
+          62,
+          65
+        ],
+        "min": 59,
+        "max": 69,
+        "sum": 1287
+      },
+      "ngm": {
+        "proc": [
+          503,
+          503,
+          503,
+          503,
+          503,
+          505,
+          505,
+          505,
+          505,
+          505,
+          505,
+          505,
+          505,
+          505,
+          505,
+          503,
+          503,
+          503,
+          504,
+          503
+        ],
+        "min": 503,
+        "max": 505,
+        "sum": 10081
+      },
+      "gamma_only": false,
+      "ecutwfc:ry": 0.1E+3,
+      "ecutrho:ry": 0.4E+3
+    },
+    "cell": {
+      "units": "a.u.",
+      "omega": 0.75306137371865546E+2,
+      "a1": [
+        -0.33517127555926209E+1,
+        0.0E+0,
+        0.33517127555926209E+1
+      ],
+      "a2": [
+        0.0E+0,
+        0.33517127555926209E+1,
+        0.33517127555926209E+1
+      ],
+      "a3": [
+        -0.33517127555926209E+1,
+        0.33517127555926209E+1,
+        0.0E+0
+      ],
+      "b1": [
+        -0.93730963321596572E+0,
+        -0.93730963321596572E+0,
+        0.93730963321596572E+0
+      ],
+      "b2": [
+        0.93730963321596572E+0,
+        0.93730963321596572E+0,
+        0.93730963321596572E+0
+      ],
+      "b3": [
+        -0.93730963321596572E+0,
+        0.93730963321596572E+0,
+        -0.93730963321596572E+0
+      ],
+      "alat": 0.67034255111852419E+1,
+      "tpiba": 0.93730963321596572E+0
+    },
+    "electron": {
+      "nbnd": 8,
+      "nkstot": 64,
+      "nspin": 1,
+      "nelec": 0.8E+1,
+      "npol": 1,
+      "lsda": false,
+      "noncolin": false,
+      "lspinorb": false,
+      "domag": false
+    },
+    "3dfft": {
+      "s": [
+        32,
+        32,
+        32
+      ],
+      "p": [
+        32,
+        32,
+        32
+      ]
+    },
+    "bzsamp": {
+      "k": [
+        {
+          "id": 1,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 2,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 3,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 4,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 5,
+          "crystcoord": [
+            0.0E+0,
+            0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 6,
+          "crystcoord": [
+            0.0E+0,
+            0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 7,
+          "crystcoord": [
+            0.0E+0,
+            0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 8,
+          "crystcoord": [
+            0.0E+0,
+            0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 9,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 10,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 11,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 12,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 13,
+          "crystcoord": [
+            0.0E+0,
+            -0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 14,
+          "crystcoord": [
+            0.0E+0,
+            -0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 15,
+          "crystcoord": [
+            0.0E+0,
+            -0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 16,
+          "crystcoord": [
+            0.0E+0,
+            -0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 17,
+          "crystcoord": [
+            0.25E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 18,
+          "crystcoord": [
+            0.25E+0,
+            0.0E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 19,
+          "crystcoord": [
+            0.25E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 20,
+          "crystcoord": [
+            0.25E+0,
+            0.0E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 21,
+          "crystcoord": [
+            0.25E+0,
+            0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 22,
+          "crystcoord": [
+            0.25E+0,
+            0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 23,
+          "crystcoord": [
+            0.25E+0,
+            0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 24,
+          "crystcoord": [
+            0.25E+0,
+            0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 25,
+          "crystcoord": [
+            0.25E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 26,
+          "crystcoord": [
+            0.25E+0,
+            -0.5E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 27,
+          "crystcoord": [
+            0.25E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 28,
+          "crystcoord": [
+            0.25E+0,
+            -0.5E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 29,
+          "crystcoord": [
+            0.25E+0,
+            -0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 30,
+          "crystcoord": [
+            0.25E+0,
+            -0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 31,
+          "crystcoord": [
+            0.25E+0,
+            -0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 32,
+          "crystcoord": [
+            0.25E+0,
+            -0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 33,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 34,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 35,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 36,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 37,
+          "crystcoord": [
+            -0.5E+0,
+            0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 38,
+          "crystcoord": [
+            -0.5E+0,
+            0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 39,
+          "crystcoord": [
+            -0.5E+0,
+            0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 40,
+          "crystcoord": [
+            -0.5E+0,
+            0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 41,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 42,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 43,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 44,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 45,
+          "crystcoord": [
+            -0.5E+0,
+            -0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 46,
+          "crystcoord": [
+            -0.5E+0,
+            -0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 47,
+          "crystcoord": [
+            -0.5E+0,
+            -0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 48,
+          "crystcoord": [
+            -0.5E+0,
+            -0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 49,
+          "crystcoord": [
+            -0.25E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 50,
+          "crystcoord": [
+            -0.25E+0,
+            0.0E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 51,
+          "crystcoord": [
+            -0.25E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 52,
+          "crystcoord": [
+            -0.25E+0,
+            0.0E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 53,
+          "crystcoord": [
+            -0.25E+0,
+            0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 54,
+          "crystcoord": [
+            -0.25E+0,
+            0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 55,
+          "crystcoord": [
+            -0.25E+0,
+            0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 56,
+          "crystcoord": [
+            -0.25E+0,
+            0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 57,
+          "crystcoord": [
+            -0.25E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 58,
+          "crystcoord": [
+            -0.25E+0,
+            -0.5E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 59,
+          "crystcoord": [
+            -0.25E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 60,
+          "crystcoord": [
+            -0.25E+0,
+            -0.5E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 61,
+          "crystcoord": [
+            -0.25E+0,
+            -0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 62,
+          "crystcoord": [
+            -0.25E+0,
+            -0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 63,
+          "crystcoord": [
+            -0.25E+0,
+            -0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 64,
+          "crystcoord": [
+            -0.25E+0,
+            -0.25E+0,
+            -0.25E+0
+          ]
+        }
+      ],
+      "q": [
+        {
+          "id": 1,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 2,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 3,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 4,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 5,
+          "crystcoord": [
+            0.0E+0,
+            0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 6,
+          "crystcoord": [
+            0.0E+0,
+            0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 7,
+          "crystcoord": [
+            0.0E+0,
+            0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 8,
+          "crystcoord": [
+            0.0E+0,
+            0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 9,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 10,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 11,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 12,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 13,
+          "crystcoord": [
+            0.0E+0,
+            -0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 14,
+          "crystcoord": [
+            0.0E+0,
+            -0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 15,
+          "crystcoord": [
+            0.0E+0,
+            -0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 16,
+          "crystcoord": [
+            0.0E+0,
+            -0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 17,
+          "crystcoord": [
+            0.25E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 18,
+          "crystcoord": [
+            0.25E+0,
+            0.0E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 19,
+          "crystcoord": [
+            0.25E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 20,
+          "crystcoord": [
+            0.25E+0,
+            0.0E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 21,
+          "crystcoord": [
+            0.25E+0,
+            0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 22,
+          "crystcoord": [
+            0.25E+0,
+            0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 23,
+          "crystcoord": [
+            0.25E+0,
+            0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 24,
+          "crystcoord": [
+            0.25E+0,
+            0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 25,
+          "crystcoord": [
+            0.25E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 26,
+          "crystcoord": [
+            0.25E+0,
+            -0.5E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 27,
+          "crystcoord": [
+            0.25E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 28,
+          "crystcoord": [
+            0.25E+0,
+            -0.5E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 29,
+          "crystcoord": [
+            0.25E+0,
+            -0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 30,
+          "crystcoord": [
+            0.25E+0,
+            -0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 31,
+          "crystcoord": [
+            0.25E+0,
+            -0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 32,
+          "crystcoord": [
+            0.25E+0,
+            -0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 33,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 34,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 35,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 36,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 37,
+          "crystcoord": [
+            -0.5E+0,
+            0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 38,
+          "crystcoord": [
+            -0.5E+0,
+            0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 39,
+          "crystcoord": [
+            -0.5E+0,
+            0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 40,
+          "crystcoord": [
+            -0.5E+0,
+            0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 41,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 42,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 43,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 44,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 45,
+          "crystcoord": [
+            -0.5E+0,
+            -0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 46,
+          "crystcoord": [
+            -0.5E+0,
+            -0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 47,
+          "crystcoord": [
+            -0.5E+0,
+            -0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 48,
+          "crystcoord": [
+            -0.5E+0,
+            -0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 49,
+          "crystcoord": [
+            -0.25E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 50,
+          "crystcoord": [
+            -0.25E+0,
+            0.0E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 51,
+          "crystcoord": [
+            -0.25E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 52,
+          "crystcoord": [
+            -0.25E+0,
+            0.0E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 53,
+          "crystcoord": [
+            -0.25E+0,
+            0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 54,
+          "crystcoord": [
+            -0.25E+0,
+            0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 55,
+          "crystcoord": [
+            -0.25E+0,
+            0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 56,
+          "crystcoord": [
+            -0.25E+0,
+            0.25E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 57,
+          "crystcoord": [
+            -0.25E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 58,
+          "crystcoord": [
+            -0.25E+0,
+            -0.5E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 59,
+          "crystcoord": [
+            -0.25E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 60,
+          "crystcoord": [
+            -0.25E+0,
+            -0.5E+0,
+            -0.25E+0
+          ]
+        },
+        {
+          "id": 61,
+          "crystcoord": [
+            -0.25E+0,
+            -0.25E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 62,
+          "crystcoord": [
+            -0.25E+0,
+            -0.25E+0,
+            0.25E+0
+          ]
+        },
+        {
+          "id": 63,
+          "crystcoord": [
+            -0.25E+0,
+            -0.25E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 64,
+          "crystcoord": [
+            -0.25E+0,
+            -0.25E+0,
+            -0.25E+0
+          ]
+        }
+      ]
+    }
+  },
+  "timing": {
+    "WELPH": {
+      "cpu:sec": 0.47523949000000002E+2,
+      "cpu:hum": "47.5s",
+      "wall:sec": 0.51002962112426758E+2,
+      "wall:hum": "51.0s",
+      "nocalls": 2
+    },
+    "welph_readin": {
+      "cpu:sec": 0.79192799999999997E+0,
+      "cpu:hum": "00.7s",
+      "wall:sec": 0.85408496856689453E+0,
+      "wall:hum": "00.8s",
+      "nocalls": 1
+    },
+    "fetch_input": {
+      "cpu:sec": 0.37220000000000031E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.70798397064208984E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 2
+    },
+    "read_xml": {
+      "cpu:sec": 0.60242600000000002E+0,
+      "cpu:hum": "00.6s",
+      "wall:sec": 0.60846304893493652E+0,
+      "wall:hum": "00.6s",
+      "nocalls": 1
+    },
+    "init_vloc": {
+      "cpu:sec": 0.73800000000001642E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.79321861267089844E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 2
+    },
+    "fft": {
+      "cpu:sec": 0.49649999999999972E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.63459873199462891E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 4
+    },
+    "fft_scatter": {
+      "cpu:sec": 0.15747071999997093E+2,
+      "cpu:hum": "15.7s",
+      "wall:sec": 0.16753193855285645E+2,
+      "wall:hum": "16.7s",
+      "nocalls": 823015
+    },
+    "v_of_rho": {
+      "cpu:sec": 0.43700000000002071E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.47993659973144531E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "v_xc": {
+      "cpu:sec": 0.22999999999995246E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.22983551025390625E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "v_h": {
+      "cpu:sec": 0.18399999999996197E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.20098686218261719E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "read_wave": {
+      "cpu:sec": 0.18512600000000001E+0,
+      "cpu:hum": "00.1s",
+      "wall:sec": 0.23525881767272949E+0,
+      "wall:hum": "00.2s",
+      "nocalls": 1
+    },
+    "davcio": {
+      "cpu:sec": 0.93201000000007639E-1,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.21007966995239258E+0,
+      "wall:hum": "00.2s",
+      "nocalls": 4225
+    },
+    "init_us_1": {
+      "cpu:sec": 0.11780000000000124E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.1255035400390625E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 2
+    },
+    "do_setup": {
+      "cpu:sec": 0.99819999999999354E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.18642902374267578E-1,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "init_pw_ar": {
+      "cpu:sec": 0.26460000000000372E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.27348995208740234E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "init_at_1": {
+      "cpu:sec": 0.10780000000000234E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.10790824890136719E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "setup_dmuxc": {
+      "cpu:sec": 0.95000000000067253E-4,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.10609626770019531E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "ffts": {
+      "cpu:sec": 0.11983399999997602E+0,
+      "cpu:hum": "00.1s",
+      "wall:sec": 0.12125039100646973E+0,
+      "wall:hum": "00.1s",
+      "nocalls": 1731
+    },
+    "scatter_grid": {
+      "cpu:sec": 0.2582570000000004E+0,
+      "cpu:hum": "00.2s",
+      "wall:sec": 0.26644563674926758E+0,
+      "wall:hum": "00.2s",
+      "nocalls": 3075
+    },
+    "init_us_2": {
+      "cpu:sec": 0.58332000000028472E-1,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.61766862869262695E-1,
+      "wall:hum": "< 00.1s",
+      "nocalls": 4160
+    },
+    "fftw": {
+      "cpu:sec": 0.23488562999998646E+2,
+      "cpu:hum": "23.4s",
+      "wall:sec": 0.24892087697982788E+2,
+      "wall:hum": "24.8s",
+      "nocalls": 821280
+    },
+    "calbec": {
+      "cpu:sec": 0.11989270000004026E+1,
+      "cpu:hum": "01.1s",
+      "wall:sec": 0.12848811149597168E+1,
+      "wall:hum": "01.2s",
+      "nocalls": 60000
+    },
+    "computeDW1": {
+      "cpu:sec": 0.54307899999999998E+0,
+      "cpu:hum": "00.5s",
+      "wall:sec": 0.62894392013549805E+0,
+      "wall:hum": "00.6s",
+      "nocalls": 1
+    },
+    "computeDW2": {
+      "cpu:sec": 0.173736E+1,
+      "cpu:hum": "01.7s",
+      "wall:sec": 0.18931801319122314E+1,
+      "wall:hum": "01.8s",
+      "nocalls": 1
+    },
+    "alphapc": {
+      "cpu:sec": 0.98807600000080242E+0,
+      "cpu:hum": "00.9s",
+      "wall:sec": 0.10565574169158936E+1,
+      "wall:hum": "01.0s",
+      "nocalls": 49104
+    },
+    "lan_H": {
+      "cpu:sec": 0.32729991999999974E+2,
+      "cpu:hum": "32.7s",
+      "wall:sec": 0.34687275409698486E+2,
+      "wall:hum": "34.6s",
+      "nocalls": 1584
+    },
+    "h_psi_bgrp": {
+      "cpu:sec": 0.2521069600000077E+2,
+      "cpu:hum": "25.2s",
+      "wall:sec": 0.26735273599624634E+2,
+      "wall:hum": "26.7s",
+      "nocalls": 47520
+    },
+    "h_psi": {
+      "cpu:sec": 0.25122386999999794E+2,
+      "cpu:hum": "25.1s",
+      "wall:sec": 0.26654290437698364E+2,
+      "wall:hum": "26.6s",
+      "nocalls": 47520
+    },
+    "h_psi:pot": {
+      "cpu:sec": 0.24994076999999717E+2,
+      "cpu:hum": "24.9s",
+      "wall:sec": 0.26517835378646851E+2,
+      "wall:hum": "26.5s",
+      "nocalls": 47520
+    },
+    "vloc_psi": {
+      "cpu:sec": 0.23495878000000857E+2,
+      "cpu:hum": "23.4s",
+      "wall:sec": 0.24925968647003174E+2,
+      "wall:hum": "24.9s",
+      "nocalls": 47520
+    },
+    "h_psi:calbec": {
+      "cpu:sec": 0.10663509999994929E+1,
+      "cpu:hum": "01.0s",
+      "wall:sec": 0.11328306198120117E+1,
+      "wall:hum": "01.1s",
+      "nocalls": 47520
+    },
+    "add_vuspsi": {
+      "cpu:sec": 0.2687990000003353E+0,
+      "cpu:hum": "00.2s",
+      "wall:sec": 0.28808140754699707E+0,
+      "wall:hum": "00.2s",
+      "nocalls": 47520
+    },
+    "computeFM1": {
+      "cpu:sec": 0.58046830000000007E+1,
+      "cpu:hum": "05.8s",
+      "wall:sec": 0.64610641002655029E+1,
+      "wall:hum": "06.4s",
+      "nocalls": 1
+    },
+    "computeFM2": {
+      "cpu:sec": 0.38505777000000002E+2,
+      "cpu:hum": "38.5s",
+      "wall:sec": 0.40818853139877319E+2,
+      "wall:hum": "40.8s",
+      "nocalls": 1
+    }
+  }
+}

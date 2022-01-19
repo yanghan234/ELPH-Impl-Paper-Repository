@@ -1,0 +1,643 @@
+{
+  "runjob": {
+    "startdate": " 8Dec2020",
+    "starttime": " 9: 1:38",
+    "completed": true,
+    "endtime": " 9: 1:45",
+    "enddate": " 8Dec2020"
+  },
+  "software": {
+    "package": "WEST",
+    "program": "WELPH",
+    "version": "3.1.1",
+    "website": "http://www.west-code.org",
+    "citation": "M. Govoni et al., J. Chem. Theory Comput. 11, 2680 (2015).",
+    "qeversion": "6.1",
+    "qesvn": "13369"
+  },
+  "config": {
+    "io": {
+      "islittleendian": true
+    }
+  },
+  "parallel": {
+    "nranks": 40,
+    "nimage": 1,
+    "npool": 1,
+    "nbgrp": 1,
+    "nrg": 40,
+    "nproc": 40,
+    "nthreads": 1
+  },
+  "input": {
+    "input_west": {
+      "qe_prefix": "c",
+      "west_prefix": "c",
+      "outdir": "./"
+    },
+    "wstat_control": {
+      "wstat_calculation": "S",
+      "n_pdep_eigen": 200,
+      "n_pdep_times": 4,
+      "n_pdep_maxiter": 100,
+      "n_dfpt_maxiter": 250,
+      "n_pdep_read_from_file": 0,
+      "trev_pdep": 0.1E-2,
+      "trev_pdep_rel": 0.10000000000000001E+0,
+      "tr2_dfpt": 0.99999999999999998E-12,
+      "l_kinetic_only": false,
+      "l_minimize_exx_if_active": false,
+      "l_use_ecutrho": false,
+      "l_use_symm": true,
+      "nq": [
+        2,
+        2,
+        2
+      ]
+    },
+    "wfreq_control": {
+      "wfreq_calculation": "XWGQ",
+      "n_pdep_eigen_to_use": 200,
+      "qp_bandrange": [
+        1,
+        2
+      ],
+      "macropol_calculation": "C",
+      "n_lanczos": 30,
+      "n_imfreq": 128,
+      "n_refreq": 272,
+      "ecut_imfreq": 0.24E+3,
+      "ecut_refreq": 0.2E+1,
+      "wfreq_eta": 0.36749999999999999E-2,
+      "n_secant_maxiter": 21,
+      "trev_secant": 0.36749999999999999E-2,
+      "l_enable_lanczos": true,
+      "l_enable_gwetot": false,
+      "o_restart_time": 0.0E+0,
+      "ecut_spectralf": [
+        -0.2E+1,
+        0.2E+1
+      ],
+      "n_spectralf": 10,
+      "l_read_common_pdep": false,
+      "l_enable_gb_curvature": true
+    },
+    "welph_control": {
+      "welph_calculation": "S         ",
+      "welph_n_pdep_eigen_to_use": 200,
+      "asr": 1,
+      "welph_band_range": [
+        1,
+        8
+      ],
+      "do_scr": true,
+      "do_fxc": true,
+      "welph_read_common_pdep": true,
+      "loto": false,
+      "lsym": false,
+      "l_adiabatic": true,
+      "l_enable_gw": false,
+      "q_direction": [
+        0.1E+1,
+        0.0E+0,
+        0.0E+0
+      ],
+      "welph_eta": 0.10000000000000001E+0,
+      "temperature": 0.0E+0
+    }
+  },
+  "system": {
+    "basis": {
+      "npw": {
+        "proc": [
+          9,
+          13,
+          12,
+          13,
+          14,
+          9,
+          14,
+          16,
+          16,
+          16,
+          16,
+          15,
+          13,
+          13,
+          14,
+          15,
+          15,
+          16,
+          14,
+          15,
+          16,
+          17,
+          17,
+          16,
+          15,
+          13,
+          16,
+          14,
+          17,
+          17,
+          18,
+          15,
+          14,
+          13,
+          13,
+          13,
+          15,
+          13,
+          14,
+          16
+        ],
+        "min": 9,
+        "max": 18,
+        "sum": 580
+      },
+      "ngm": {
+        "proc": [
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          119,
+          117,
+          117,
+          117,
+          117,
+          116,
+          116,
+          116,
+          117,
+          117,
+          115,
+          115,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          116,
+          115,
+          115
+        ],
+        "min": 115,
+        "max": 119,
+        "sum": 4645
+      },
+      "gamma_only": false,
+      "ecutwfc:ry": 0.6E+2,
+      "ecutrho:ry": 0.24E+3
+    },
+    "cell": {
+      "units": "a.u.",
+      "omega": 0.73495941041833888E+2,
+      "a1": [
+        -0.3324638678461429E+1,
+        -0.523698281370783E-17,
+        0.3324638678461429E+1
+      ],
+      "a2": [
+        -0.67387077035397688E-17,
+        0.3324638678461429E+1,
+        0.3324638678461429E+1
+      ],
+      "a3": [
+        -0.3324638678461429E+1,
+        0.3324638678461429E+1,
+        -0.67719584715127468E-17
+      ],
+      "b1": [
+        -0.94494258096150596E+0,
+        -0.94494258096150596E+0,
+        0.94494258096150596E+0
+      ],
+      "b2": [
+        0.94494258096150596E+0,
+        0.94494258096150596E+0,
+        0.94494258096150596E+0
+      ],
+      "b3": [
+        -0.94494258096150596E+0,
+        0.94494258096150596E+0,
+        -0.94494258096150596E+0
+      ],
+      "alat": 0.67034255111852419E+1,
+      "tpiba": 0.93730963321596572E+0
+    },
+    "electron": {
+      "nbnd": 8,
+      "nkstot": 8,
+      "nspin": 1,
+      "nelec": 0.8E+1,
+      "npol": 1,
+      "lsda": false,
+      "noncolin": false,
+      "lspinorb": false,
+      "domag": false
+    },
+    "3dfft": {
+      "s": [
+        24,
+        24,
+        24
+      ],
+      "p": [
+        24,
+        24,
+        24
+      ]
+    },
+    "bzsamp": {
+      "k": [
+        {
+          "id": 1,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 2,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            -0.49999999999999994E+0
+          ]
+        },
+        {
+          "id": 3,
+          "crystcoord": [
+            0.0E+0,
+            -0.49999999999999994E+0,
+            0.5092251464335564E-18
+          ]
+        },
+        {
+          "id": 4,
+          "crystcoord": [
+            0.78760179980390998E-18,
+            -0.49999999999999989E+0,
+            -0.49999999999999989E+0
+          ]
+        },
+        {
+          "id": 5,
+          "crystcoord": [
+            -0.49999999999999994E+0,
+            0.0E+0,
+            0.5092251464335564E-18
+          ]
+        },
+        {
+          "id": 6,
+          "crystcoord": [
+            -0.49999999999999989E+0,
+            -0.10134496339701936E-17,
+            -0.49999999999999989E+0
+          ]
+        },
+        {
+          "id": 7,
+          "crystcoord": [
+            -0.49999999999999989E+0,
+            -0.49999999999999989E+0,
+            0.10184502928671126E-17
+          ]
+        },
+        {
+          "id": 8,
+          "crystcoord": [
+            -0.49999999999999994E+0,
+            -0.49999999999999994E+0,
+            -0.49999999999999994E+0
+          ]
+        }
+      ],
+      "q": [
+        {
+          "id": 1,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 2,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 3,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 4,
+          "crystcoord": [
+            0.0E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 5,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 6,
+          "crystcoord": [
+            -0.5E+0,
+            0.0E+0,
+            -0.5E+0
+          ]
+        },
+        {
+          "id": 7,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            0.0E+0
+          ]
+        },
+        {
+          "id": 8,
+          "crystcoord": [
+            -0.5E+0,
+            -0.5E+0,
+            -0.5E+0
+          ]
+        }
+      ]
+    }
+  },
+  "timing": {
+    "WELPH": {
+      "cpu:sec": 0.51120729999999996E+1,
+      "cpu:hum": "05.1s",
+      "wall:sec": 0.60921308994293213E+1,
+      "wall:hum": "06.0s",
+      "nocalls": 2
+    },
+    "welph_readin": {
+      "cpu:sec": 0.39412199999999997E+0,
+      "cpu:hum": "00.3s",
+      "wall:sec": 0.41348099708557129E+0,
+      "wall:hum": "00.4s",
+      "nocalls": 1
+    },
+    "fetch_input": {
+      "cpu:sec": 0.38679999999999826E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.7678985595703125E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 2
+    },
+    "read_xml": {
+      "cpu:sec": 0.22015099999999999E+0,
+      "cpu:hum": "00.2s",
+      "wall:sec": 0.22713303565979004E+0,
+      "wall:hum": "00.2s",
+      "nocalls": 1
+    },
+    "init_vloc": {
+      "cpu:sec": 0.28300000000003322E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.3528594970703125E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 2
+    },
+    "fft": {
+      "cpu:sec": 0.50110000000000432E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.86448192596435547E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 4
+    },
+    "fft_scatter": {
+      "cpu:sec": 0.19484019999999536E+1,
+      "cpu:hum": "01.9s",
+      "wall:sec": 0.2060260534286499E+1,
+      "wall:hum": "02.0s",
+      "nocalls": 80527
+    },
+    "v_of_rho": {
+      "cpu:sec": 0.34900000000004372E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.49805641174316406E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "v_xc": {
+      "cpu:sec": 0.17899999999998473E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.24199485778808594E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "v_h": {
+      "cpu:sec": 0.14500000000000624E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.20480155944824219E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "read_wave": {
+      "cpu:sec": 0.16953099999999999E+0,
+      "cpu:hum": "00.1s",
+      "wall:sec": 0.17783498764038086E+0,
+      "wall:hum": "00.1s",
+      "nocalls": 1
+    },
+    "davcio": {
+      "cpu:sec": 0.44649999999970547E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.64890384674072266E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 387
+    },
+    "init_us_1": {
+      "cpu:sec": 0.74099999999993615E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.8258819580078125E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 2
+    },
+    "do_setup": {
+      "cpu:sec": 0.40050000000000363E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.89659690856933594E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "init_pw_ar": {
+      "cpu:sec": 0.10760000000000214E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.11949539184570312E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "init_at_1": {
+      "cpu:sec": 0.44399999999999995E-3,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.44393539428710938E-3,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "setup_dmuxc": {
+      "cpu:sec": 0.0E+0,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.66995620727539062E-4,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "ffts": {
+      "cpu:sec": 0.12953000000003989E-1,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.13213634490966797E-1,
+      "wall:hum": "< 00.1s",
+      "nocalls": 198
+    },
+    "scatter_grid": {
+      "cpu:sec": 0.12153999999996223E-1,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.13511896133422852E-1,
+      "wall:hum": "< 00.1s",
+      "nocalls": 294
+    },
+    "init_us_2": {
+      "cpu:sec": 0.29239999999974842E-2,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.31559467315673828E-2,
+      "wall:hum": "< 00.1s",
+      "nocalls": 378
+    },
+    "fftw": {
+      "cpu:sec": 0.23760430000000121E+1,
+      "cpu:hum": "02.3s",
+      "wall:sec": 0.25049726963043213E+1,
+      "wall:hum": "02.5s",
+      "nocalls": 80325
+    },
+    "calbec": {
+      "cpu:sec": 0.16273299999999491E+0,
+      "cpu:hum": "00.1s",
+      "wall:sec": 0.17366480827331543E+0,
+      "wall:hum": "00.1s",
+      "nocalls": 6066
+    },
+    "computeDW1": {
+      "cpu:sec": 0.2770499999999998E-1,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.39799928665161133E-1,
+      "wall:hum": "< 00.1s",
+      "nocalls": 1
+    },
+    "computeDW2": {
+      "cpu:sec": 0.56126899999999991E+0,
+      "cpu:hum": "00.5s",
+      "wall:sec": 0.59046506881713867E+0,
+      "wall:hum": "00.5s",
+      "nocalls": 1
+    },
+    "alphapc": {
+      "cpu:sec": 0.12626200000001209E+0,
+      "cpu:hum": "00.1s",
+      "wall:sec": 0.13427615165710449E+0,
+      "wall:hum": "00.1s",
+      "nocalls": 4929
+    },
+    "lan_H": {
+      "cpu:sec": 0.37019889999999949E+1,
+      "cpu:hum": "03.7s",
+      "wall:sec": 0.38879425525665283E+1,
+      "wall:hum": "03.8s",
+      "nocalls": 159
+    },
+    "h_psi_bgrp": {
+      "cpu:sec": 0.24891730000000094E+1,
+      "cpu:hum": "02.4s",
+      "wall:sec": 0.26172311305999756E+1,
+      "wall:hum": "02.6s",
+      "nocalls": 4770
+    },
+    "h_psi": {
+      "cpu:sec": 0.24803159999999793E+1,
+      "cpu:hum": "02.4s",
+      "wall:sec": 0.26090664863586426E+1,
+      "wall:hum": "02.6s",
+      "nocalls": 4770
+    },
+    "h_psi:pot": {
+      "cpu:sec": 0.24711519999999991E+1,
+      "cpu:hum": "02.4s",
+      "wall:sec": 0.2599433422088623E+1,
+      "wall:hum": "02.5s",
+      "nocalls": 4770
+    },
+    "vloc_psi": {
+      "cpu:sec": 0.22952160000000115E+1,
+      "cpu:hum": "02.2s",
+      "wall:sec": 0.24138472080230713E+1,
+      "wall:hum": "02.4s",
+      "nocalls": 4770
+    },
+    "h_psi:calbec": {
+      "cpu:sec": 0.13974600000000414E+0,
+      "cpu:hum": "00.1s",
+      "wall:sec": 0.14729452133178711E+0,
+      "wall:hum": "00.1s",
+      "nocalls": 4770
+    },
+    "add_vuspsi": {
+      "cpu:sec": 0.19940999999981557E-1,
+      "cpu:hum": "< 00.1s",
+      "wall:sec": 0.2151799201965332E-1,
+      "wall:hum": "< 00.1s",
+      "nocalls": 4770
+    },
+    "computeFM1": {
+      "cpu:sec": 0.23866900000000002E+0,
+      "cpu:hum": "00.2s",
+      "wall:sec": 0.2651820182800293E+0,
+      "wall:hum": "00.2s",
+      "nocalls": 1
+    },
+    "computeFM2": {
+      "cpu:sec": 0.38213400000000002E+1,
+      "cpu:hum": "03.8s",
+      "wall:sec": 0.40068051815032959E+1,
+      "wall:hum": "04.0s",
+      "nocalls": 1
+    }
+  }
+}

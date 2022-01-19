@@ -1,0 +1,44 @@
+
+     Program DYNMAT v.6.1 (svn rev. 13369) starts on 15Dec2020 at 22:48: 1 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      80 processor cores
+     Number of MPI processes:                80
+     Threads/MPI process:                     1
+     R & G space division:  proc/nbgrp/npool/nimage =      80
+
+     Reading Dynamical Matrix from file ./_ph0/c.dyn1
+     ...Force constants read
+     ...epsilon and Z* read
+     A direction for q was not specified:TO-LO splitting will be absent
+
+     Polarizability (A^3 units)
+     multiply by 0.324904 for Clausius-Mossotti correction
+         5.535489    0.000000    0.000000
+         0.000000    5.535489    0.000000
+         0.000000    0.000000    5.535489
+
+     IR activities are in (D/A)^2/amu units
+
+# mode   [cm-1]    [THz]      IR
+    1      0.00    0.0000    0.0000
+    2      0.00    0.0000    0.0000
+    3      0.00    0.0000    0.0000
+    4   1325.53   39.7385    0.0000
+    5   1325.53   39.7385    0.0000
+    6   1325.53   39.7385    0.0000
+ 
+     DYNMAT       :     0.02s CPU         0.05s WALL
+
+ 
+   This run was terminated on:  22:48: 1  15Dec2020            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

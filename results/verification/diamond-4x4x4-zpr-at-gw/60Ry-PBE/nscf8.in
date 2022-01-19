@@ -1,0 +1,37 @@
+&control
+    calculation   = 'nscf',
+    restart_mode  = 'from_scratch',
+    prefix        = 'c',
+    disk_io       = 'low',
+    wf_collect    = .true.
+    pseudo_dir    = '../',
+    outdir        = './',
+    forc_conv_thr = 1.0D-3
+/
+&system
+    ibrav         = 2,
+    celldm(1)     = 6.716062083801496
+    nat           = 2,
+    ntyp          = 1,
+    ecutwfc       = 60.0,
+    nbnd          = 8,
+    nosym         = .true.,
+    noinv         = .true.,
+    force_symmorphic = .true.
+    input_dft     = 'pbe'
+/
+&electrons
+    !conv_thr        = 1.0e-15,
+    diago_full_acc  = .true.,
+    mixing_beta     = 0.7,
+    diagonalization = 'davidson',
+    mixing_mode     = 'local-TF'
+    electron_maxstep= 500
+/
+ATOMIC_SPECIES
+    C 12.011 C_ONCV_PBE-1.0.upf
+K_POINTS (automatic)
+   4 4 4 0 0 0
+ATOMIC_POSITIONS (crystal)
+C        0.000000000   0.000000000   0.000000000
+C        0.250000000   0.250000000   0.250000000

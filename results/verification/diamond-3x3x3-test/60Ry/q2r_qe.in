@@ -1,0 +1,5 @@
+&input
+  fildyn = '_ph0/c.dyn',
+  zasr   = 'simple',
+  flfrc  = 'c_qe.frc'
+/

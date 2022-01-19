@@ -1,0 +1,23 @@
+WFREQ: 8 bands, strict configurtion to converge
+WFREQ: 8 bands, with Lanczos
+NSCF 100 bands
+WFREQ: 100 bands, with Lanczos, without curvature
+WFREQ: 100 bands, without Lanczos, without curvature
+PPM G0W0 with ABINIT
+nk = 008, ns = 001
+xk(:,00001) =   0.000000  0.000000  0.000000
+
+xk(:,00002) =   0.250000  0.000000  0.000000
+
+xk(:,00003) =   0.500000  0.000000  0.000000
+
+xk(:,00004) =   0.250000  0.250000  0.000000
+
+xk(:,00005) =   0.500000  0.250000  0.000000
+
+xk(:,00006) =  -0.250000  0.250000  0.000000
+
+xk(:,00007) =   0.500000  0.500000  0.000000
+
+xk(:,00008) =  -0.250000  0.500000  0.250000
+

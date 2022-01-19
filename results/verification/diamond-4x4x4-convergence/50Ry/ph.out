@@ -1,0 +1,1890 @@
+
+     Program PHONON v.6.1 (svn rev. 13369) starts on 17Dec2020 at  9:30:18 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      80 processor cores
+     Number of MPI processes:                80
+     Threads/MPI process:                     1
+     R & G space division:  proc/nbgrp/npool/nimage =      80
+
+     Reading data from directory:
+     ./c.save
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+               file C.pz-mt.fhi.UPF: wavefunction(s)  3d renormalized
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           3       3      1                   42       42       7
+     Max           4       4      2                   48       48      11
+     Sum         313     313    109                 3647     3647     701
+ 
+
+
+     Dynamical matrices for ( 4, 4, 4)  uniform grid of q-points
+     (   8q-points):
+       N         xq(1)         xq(2)         xq(3) 
+       1   0.000000000   0.000000000   0.000000000
+       2  -0.250000000   0.250000000  -0.250000000
+       3   0.500000000  -0.500000000   0.500000000
+       4   0.000000000   0.500000000   0.000000000
+       5   0.750000000  -0.250000000   0.750000000
+       6   0.500000000   0.000000000   0.500000000
+       7   0.000000000  -1.000000000   0.000000000
+       8  -0.500000000  -1.000000000   0.000000000
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+                                                                                
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       6.7034  a.u.
+     unit-cell volume          =      75.3061 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     kinetic-energy cut-off    =      50.0000  Ry
+     charge density cut-off    =     200.0000  Ry
+     convergence threshold     =      1.0E-24
+     beta                      =       0.7000
+     number of iterations used =            4
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+
+
+     celldm(1)=    6.70343  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = ( -0.5000  0.0000  0.5000 )  
+               a(2) = (  0.0000  0.5000  0.5000 )  
+               a(3) = ( -0.5000  0.5000  0.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -1.0000 -1.0000  1.0000 )  
+               b(2) = (  1.0000  1.0000  1.0000 )  
+               b(3) = ( -1.0000  1.0000 -1.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1     C   12.0110   tau(    1) = (    0.00000    0.00000    0.00000  )
+        2     C   12.0110   tau(    2) = (   -0.25000    0.25000    0.25000  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+ 
+     49 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff =  227.6480  (     45 G-vectors)     FFT grid: ( 24, 24, 24)
+     number of k points=     8
+
+     PseudoPot. # 1 for  C read from file:
+     ../C.pz-mt.fhi.UPF
+     MD5 check sum: b7c38bc33a0cf75f44be89b84470f298
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  461 points,  2 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+
+     Mode symmetry, O_h (m-3m)  point group:
+
+
+     Electric field:
+     Dielectric constant
+     Born effective charges in two ways 
+
+
+     Atomic displacements:
+     There are   2 irreducible representations
+
+     Representation     1      3 modes -T_2g G_25' G_5+  To be done
+
+     Representation     2      3 modes -T_1u G_15  G_4-  To be done
+
+
+
+     Alpha used in Ewald sum =   2.1000
+     PHONON       :     1.05s CPU         2.04s WALL
+
+
+     Electric Fields Calculation
+
+      iter #   1 total cpu time :     2.7 secs   av.it.:   5.3
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  3.408E-09
+
+      iter #   2 total cpu time :     3.6 secs   av.it.:   9.6
+      thresh= 5.838E-06 alpha_mix =  0.700 |ddv_scf|^2 =  3.924E-11
+
+      iter #   3 total cpu time :     3.9 secs   av.it.:   9.8
+      thresh= 6.264E-07 alpha_mix =  0.700 |ddv_scf|^2 =  1.932E-12
+
+      iter #   4 total cpu time :     4.2 secs   av.it.:  10.0
+      thresh= 1.390E-07 alpha_mix =  0.700 |ddv_scf|^2 =  3.139E-15
+
+      iter #   5 total cpu time :     4.5 secs   av.it.:   9.5
+      thresh= 5.602E-09 alpha_mix =  0.700 |ddv_scf|^2 =  5.637E-19
+
+      iter #   6 total cpu time :     4.7 secs   av.it.:   9.7
+      thresh= 7.508E-11 alpha_mix =  0.700 |ddv_scf|^2 =  7.563E-21
+
+      iter #   7 total cpu time :     4.8 secs   av.it.:   9.5
+      thresh= 8.696E-12 alpha_mix =  0.700 |ddv_scf|^2 =  2.953E-24
+
+      iter #   8 total cpu time :     5.2 secs   av.it.:   9.5
+      thresh= 1.718E-13 alpha_mix =  0.700 |ddv_scf|^2 =  5.240E-26
+
+     End of electric fields calculation
+
+          Dielectric constant in cartesian axis 
+
+          (       7.229902075      -0.000000000      -0.000000000 )
+          (      -0.000000000       7.229902075      -0.000000000 )
+          (      -0.000000000       0.000000000       7.229902075 )
+
+          Effective charges (d Force / dE) in cartesian axis
+
+           atom      1   C  
+      Ex  (       -0.34752       -0.00000       -0.00000 )
+      Ey  (       -0.00000       -0.34752        0.00000 )
+      Ez  (       -0.00000        0.00000       -0.34752 )
+           atom      2   C  
+      Ex  (       -0.34752        0.00000       -0.00000 )
+      Ey  (        0.00000       -0.34752       -0.00000 )
+      Ez  (       -0.00000       -0.00000       -0.34752 )
+
+
+     Representation #  1 modes #   1  2  3
+
+     Self-consistent Calculation
+
+      iter #   1 total cpu time :     5.6 secs   av.it.:   5.6
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  5.228E-08
+
+      iter #   2 total cpu time :     7.5 secs   av.it.:   9.4
+      thresh= 2.287E-05 alpha_mix =  0.700 |ddv_scf|^2 =  1.347E-10
+
+      iter #   3 total cpu time :     9.2 secs   av.it.:   9.5
+      thresh= 1.160E-06 alpha_mix =  0.700 |ddv_scf|^2 =  2.134E-12
+
+      iter #   4 total cpu time :     9.8 secs   av.it.:   9.2
+      thresh= 1.461E-07 alpha_mix =  0.700 |ddv_scf|^2 =  2.945E-15
+
+      iter #   5 total cpu time :    10.5 secs   av.it.:   9.7
+      thresh= 5.427E-09 alpha_mix =  0.700 |ddv_scf|^2 =  2.624E-18
+
+      iter #   6 total cpu time :    10.9 secs   av.it.:   9.8
+      thresh= 1.620E-10 alpha_mix =  0.700 |ddv_scf|^2 =  1.046E-19
+
+      iter #   7 total cpu time :    11.3 secs   av.it.:  10.0
+      thresh= 3.234E-11 alpha_mix =  0.700 |ddv_scf|^2 =  8.519E-23
+
+      iter #   8 total cpu time :    12.0 secs   av.it.:   9.8
+      thresh= 9.230E-13 alpha_mix =  0.700 |ddv_scf|^2 =  6.802E-24
+
+      iter #   9 total cpu time :    12.5 secs   av.it.:   9.9
+      thresh= 2.608E-13 alpha_mix =  0.700 |ddv_scf|^2 =  1.239E-27
+
+     End of self-consistent calculation
+
+     Convergence has been achieved 
+
+
+     Representation #  2 modes #   4  5  6
+
+     Self-consistent Calculation
+
+      iter #   1 total cpu time :    12.9 secs   av.it.:   6.2
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  3.462E-08
+
+      iter #   2 total cpu time :    13.2 secs   av.it.:  10.3
+      thresh= 1.861E-05 alpha_mix =  0.700 |ddv_scf|^2 =  3.501E-11
+
+      iter #   3 total cpu time :    13.5 secs   av.it.:   9.8
+      thresh= 5.917E-07 alpha_mix =  0.700 |ddv_scf|^2 =  3.132E-12
+
+      iter #   4 total cpu time :    13.7 secs   av.it.:   9.8
+      thresh= 1.770E-07 alpha_mix =  0.700 |ddv_scf|^2 =  2.211E-15
+
+      iter #   5 total cpu time :    14.0 secs   av.it.:  10.5
+      thresh= 4.702E-09 alpha_mix =  0.700 |ddv_scf|^2 =  6.289E-19
+
+      iter #   6 total cpu time :    14.2 secs   av.it.:  10.5
+      thresh= 7.930E-11 alpha_mix =  0.700 |ddv_scf|^2 =  3.635E-20
+
+      iter #   7 total cpu time :    14.4 secs   av.it.:   9.5
+      thresh= 1.907E-11 alpha_mix =  0.700 |ddv_scf|^2 =  1.719E-24
+
+      iter #   8 total cpu time :    14.7 secs   av.it.:   9.0
+      thresh= 1.311E-13 alpha_mix =  0.700 |ddv_scf|^2 =  1.643E-25
+
+     End of self-consistent calculation
+
+     Convergence has been achieved 
+ 
+     Number of q in the star =    1
+     List of q in the star:
+          1   0.000000000   0.000000000   0.000000000
+
+          Dielectric constant in cartesian axis 
+
+          (       7.229902075      -0.000000000      -0.000000000 )
+          (      -0.000000000       7.229902075      -0.000000000 )
+          (      -0.000000000       0.000000000       7.229902075 )
+
+          Effective charges (d Force / dE) in cartesian axis
+
+           atom      1   C  
+      Ex  (       -0.34752       -0.00000       -0.00000 )
+      Ey  (       -0.00000       -0.34752        0.00000 )
+      Ez  (       -0.00000        0.00000       -0.34752 )
+           atom      2   C  
+      Ex  (       -0.34752        0.00000       -0.00000 )
+      Ey  (        0.00000       -0.34752       -0.00000 )
+      Ez  (       -0.00000       -0.00000       -0.34752 )
+
+          Effective charges (d P / du) in cartesian axis 
+
+           atom      1   C  
+      Px  (       -0.34752        0.00000        0.00000 )
+      Py  (        0.00000       -0.34752       -0.00000 )
+      Pz  (        0.00000       -0.00000       -0.34752 )
+           atom      2   C  
+      Px  (       -0.34752        0.00000        0.00000 )
+      Py  (        0.00000       -0.34752        0.00000 )
+      Pz  (        0.00000       -0.00000       -0.34752 )
+
+     Diagonalizing the dynamical matrix
+
+     q = (    0.000000000   0.000000000   0.000000000 ) 
+
+ **************************************************************************
+     freq (    1) =      -5.087988 [THz] =    -169.717016 [cm-1]
+     freq (    2) =      -5.087988 [THz] =    -169.717016 [cm-1]
+     freq (    3) =      -5.087988 [THz] =    -169.717016 [cm-1]
+     freq (    4) =      39.452142 [THz] =    1315.981793 [cm-1]
+     freq (    5) =      39.452142 [THz] =    1315.981793 [cm-1]
+     freq (    6) =      39.452142 [THz] =    1315.981793 [cm-1]
+ **************************************************************************
+
+     Mode symmetry, O_h (m-3m)  point group:
+
+     freq (  1 -  3) =       -169.7  [cm-1]   --> T_1u G_15  G_4- I  
+     freq (  4 -  6) =       1316.0  [cm-1]   --> T_2g G_25' G_5+ R  
+
+     Calculation of q =   -0.2500000   0.2500000  -0.2500000
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           3       3      1                   42       42       8
+     Max           4       4      2                   48       48      11
+     Sum         313     313    109                 3647     3647     749
+ 
+
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       6.7034  a.u.
+     unit-cell volume          =      75.3061 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.00
+     number of Kohn-Sham states=            8
+     kinetic-energy cutoff     =      50.0000  Ry
+     charge density cutoff     =     200.0000  Ry
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+
+     celldm(1)=   6.703426  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  -0.500000   0.000000   0.500000 )  
+               a(2) = (   0.000000   0.500000   0.500000 )  
+               a(3) = (  -0.500000   0.500000   0.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -1.000000 -1.000000  1.000000 )  
+               b(2) = (  1.000000  1.000000  1.000000 )  
+               b(3) = ( -1.000000  1.000000 -1.000000 )  
+
+
+     PseudoPot. # 1 for  C read from file:
+     ../C.pz-mt.fhi.UPF
+     MD5 check sum: b7c38bc33a0cf75f44be89b84470f298
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  461 points,  2 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.01100      C( 1.00)
+
+     48 Sym. Ops., with inversion, found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           C   tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           C   tau(   2) = (  -0.2500000   0.2500000   0.2500000  )
+
+     number of k points=    40
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0312500
+        k(    2) = (  -0.2500000   0.2500000  -0.2500000), wk =   0.0000000
+        k(    3) = (  -0.2500000   0.2500000  -0.2500000), wk =   0.0312500
+        k(    4) = (  -0.5000000   0.5000000  -0.5000000), wk =   0.0000000
+        k(    5) = (   0.5000000  -0.5000000   0.5000000), wk =   0.0312500
+        k(    6) = (   0.2500000  -0.2500000   0.2500000), wk =   0.0000000
+        k(    7) = (   0.0000000   0.5000000   0.0000000), wk =   0.0937500
+        k(    8) = (  -0.2500000   0.7500000  -0.2500000), wk =   0.0000000
+        k(    9) = (   0.7500000  -0.2500000   0.7500000), wk =   0.0937500
+        k(   10) = (   0.5000000   0.0000000   0.5000000), wk =   0.0000000
+        k(   11) = (   0.5000000   0.0000000   0.5000000), wk =   0.0937500
+        k(   12) = (   0.2500000   0.2500000   0.2500000), wk =   0.0000000
+        k(   13) = (   0.0000000  -1.0000000   0.0000000), wk =   0.0937500
+        k(   14) = (  -0.2500000  -0.7500000  -0.2500000), wk =   0.0000000
+        k(   15) = (  -0.5000000  -1.0000000   0.0000000), wk =   0.1875000
+        k(   16) = (  -0.7500000  -0.7500000  -0.2500000), wk =   0.0000000
+        k(   17) = (   0.2500000  -0.2500000  -0.2500000), wk =   0.0937500
+        k(   18) = (   0.0000000   0.0000000  -0.5000000), wk =   0.0000000
+        k(   19) = (   0.2500000  -0.2500000   0.2500000), wk =   0.0312500
+        k(   20) = (   0.0000000   0.0000000   0.0000000), wk =   0.0000000
+        k(   21) = (  -0.2500000  -0.2500000  -0.2500000), wk =   0.0937500
+        k(   22) = (  -0.5000000   0.0000000  -0.5000000), wk =   0.0000000
+        k(   23) = (  -0.5000000   0.5000000   0.5000000), wk =   0.0937500
+        k(   24) = (  -0.7500000   0.7500000   0.2500000), wk =   0.0000000
+        k(   25) = (   0.0000000   0.0000000   0.5000000), wk =   0.0937500
+        k(   26) = (  -0.2500000   0.2500000   0.2500000), wk =   0.0000000
+        k(   27) = (  -0.7500000   0.7500000   0.2500000), wk =   0.0937500
+        k(   28) = (  -1.0000000   1.0000000   0.0000000), wk =   0.0000000
+        k(   29) = (  -0.7500000   0.7500000  -0.2500000), wk =   0.0937500
+        k(   30) = (  -1.0000000   1.0000000  -0.5000000), wk =   0.0000000
+        k(   31) = (  -0.7500000   0.2500000   0.7500000), wk =   0.1875000
+        k(   32) = (  -1.0000000   0.5000000   0.5000000), wk =   0.0000000
+        k(   33) = (   0.7500000   0.2500000   0.7500000), wk =   0.0937500
+        k(   34) = (   0.5000000   0.5000000   0.5000000), wk =   0.0000000
+        k(   35) = (   0.7500000  -0.2500000  -0.7500000), wk =   0.1875000
+        k(   36) = (   0.5000000   0.0000000  -1.0000000), wk =   0.0000000
+        k(   37) = (  -0.5000000   0.5000000   0.0000000), wk =   0.0937500
+        k(   38) = (  -0.7500000   0.7500000  -0.2500000), wk =   0.0000000
+        k(   39) = (  -0.5000000   0.0000000   0.5000000), wk =   0.1875000
+        k(   40) = (  -0.7500000   0.2500000   0.2500000), wk =   0.0000000
+
+     Dense  grid:     3647 G-vectors     FFT dimensions: (  24,  24,  24)
+
+     Estimated max dynamical RAM per process >       0.13MB
+
+     Estimated total allocated dynamical RAM >      10.02MB
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+
+     The potential is recalculated from file :
+     ./_ph0/c.q_2/c.save/charge-density.dat
+
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine potinit (1):
+     starting and expected charges differ
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 63
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 50
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 46
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 64
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 79
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F7E10D7D630  Unknown               Unknown  Unknown
+libiomp5.so        00007F7E0F65CA37  Unknown               Unknown  Unknown
+libiomp5.so        00007F7E0F65C8DD  Unknown               Unknown  Unknown
+libiomp5.so        00007F7E0F624A84  Unknown               Unknown  Unknown
+ld-linux-x86-64.s  00007F7E16D05078  Unknown               Unknown  Unknown
+libc.so.6          00007F7E0F217CD9  Unknown               Unknown  Unknown
+libc.so.6          00007F7E0F217D27  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7E0FAE7EC6  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7E0FBA3143  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7E0F99A320  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F7E1011211D  Unknown               Unknown  Unknown
+ph.x               00000000009F6215  Unknown               Unknown  Unknown
+ph.x               00000000009986C9  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F7E0F200545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC846A0D630  Unknown               Unknown  Unknown
+libc.so.6          00007FC844F655B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FC844E90545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC60A6C7630  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC60A6C6EFD  Unknown               Unknown  Unknown
+ph.x               0000000000D78E7B  Unknown               Unknown  Unknown
+ph.x               0000000000CF4059  Unknown               Unknown  Unknown
+ph.x               0000000000998566  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FC608B4A545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F8168C74630  Unknown               Unknown  Unknown
+libpthread.so.0    00007F8168C73EFD  Unknown               Unknown  Unknown
+ph.x               0000000000D78E7B  Unknown               Unknown  Unknown
+ph.x               0000000000CF4059  Unknown               Unknown  Unknown
+ph.x               0000000000998566  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F81670F7545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F551E9A0630  Unknown               Unknown  Unknown
+libc.so.6          00007F551CEF85B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F551CE23545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FB1453CA630  Unknown               Unknown  Unknown
+libc.so.6          00007FB1439225B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FB14384D545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC443E7D630  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC443E7CEFD  Unknown               Unknown  Unknown
+ph.x               0000000000D78E7B  Unknown               Unknown  Unknown
+ph.x               0000000000CF4059  Unknown               Unknown  Unknown
+ph.x               0000000000998566  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FC442300545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F7403591630  Unknown               Unknown  Unknown
+libc.so.6          00007F7401AE95B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F7401A14545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F756E624630  Unknown               Unknown  Unknown
+libpthread.so.0    00007F756E623EFD  Unknown               Unknown  Unknown
+ph.x               0000000000D78E7B  Unknown               Unknown  Unknown
+ph.x               0000000000CF4059  Unknown               Unknown  Unknown
+ph.x               0000000000998566  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F756CAA7545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F211D916630  Unknown               Unknown  Unknown
+libpthread.so.0    00007F211D915EFD  Unknown               Unknown  Unknown
+ph.x               0000000000D78E7B  Unknown               Unknown  Unknown
+ph.x               0000000000CF4059  Unknown               Unknown  Unknown
+ph.x               0000000000998566  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F211BD99545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FAC6BFE6630  Unknown               Unknown  Unknown
+libpthread.so.0    00007FAC6BFE5EFD  Unknown               Unknown  Unknown
+ph.x               0000000000D78E7B  Unknown               Unknown  Unknown
+ph.x               0000000000CF4059  Unknown               Unknown  Unknown
+ph.x               0000000000998566  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FAC6A469545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FEB61C0A630  Unknown               Unknown  Unknown
+libpthread.so.0    00007FEB61C09EFD  Unknown               Unknown  Unknown
+ph.x               0000000000D78E7B  Unknown               Unknown  Unknown
+ph.x               0000000000CF4059  Unknown               Unknown  Unknown
+ph.x               0000000000998566  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FEB6008D545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F7669A19630  Unknown               Unknown  Unknown
+libc.so.6          00007F7667F715B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F7667E9C545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FD134E33630  Unknown               Unknown  Unknown
+libc.so.6          00007FD13338B5B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FD1332B6545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F37D104F630  Unknown               Unknown  Unknown
+libc.so.6          00007F37CF5A75B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F37CF4D2545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F46BF743630  Unknown               Unknown  Unknown
+libc.so.6          00007F46BDC9B5B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F46BDBC6545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F84A1B1A630  Unknown               Unknown  Unknown
+libc.so.6          00007F84A00725B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F849FF9D545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F70051F8630  Unknown               Unknown  Unknown
+libpthread.so.0    00007F70051F7EFD  Unknown               Unknown  Unknown
+ph.x               0000000000D78E7B  Unknown               Unknown  Unknown
+ph.x               0000000000CF4059  Unknown               Unknown  Unknown
+ph.x               0000000000998566  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F700367B545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F2847390630  Unknown               Unknown  Unknown
+libc.so.6          00007F28458E85B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F2845813545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 5
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007EFEF3D8F630  Unknown               Unknown  Unknown
+libc.so.6          00007EFEF22E75B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007EFEF2212545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FDA9262D630  Unknown               Unknown  Unknown
+libc.so.6          00007FDA90B855B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FDA90AB0545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F2C16D2C630  Unknown               Unknown  Unknown
+libc.so.6          00007F2C152845B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F2C151AF545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F44F74EC630  Unknown               Unknown  Unknown
+libc.so.6          00007F44F5A445B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F44F596F545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F2422B1E630  Unknown               Unknown  Unknown
+libc.so.6          00007F24210765B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F2420FA1545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 4
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F4FE4813630  Unknown               Unknown  Unknown
+libc.so.6          00007F4FE2D6B5B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F4FE2C96545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FBBAD7BA630  Unknown               Unknown  Unknown
+libc.so.6          00007FBBABD125B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FBBABC3D545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FAC8FC10630  Unknown               Unknown  Unknown
+libc.so.6          00007FAC8E1685B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FAC8E093545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F5DDCC41630  Unknown               Unknown  Unknown
+libc.so.6          00007F5DDB1995B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F5DDB0C4545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F23A346B630  Unknown               Unknown  Unknown
+libc.so.6          00007F23A19C35B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F23A18EE545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F5C10A1D630  Unknown               Unknown  Unknown
+libc.so.6          00007F5C0EF755B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F5C0EEA0545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC4A6EA4630  Unknown               Unknown  Unknown
+libc.so.6          00007FC4A53FC5B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FC4A5327545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC059265630  Unknown               Unknown  Unknown
+libc.so.6          00007FC0577BD5B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FC0576E8545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 20
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 24
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 30
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 32
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 34
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 38
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F1E9663E630  Unknown               Unknown  Unknown
+libc.so.6          00007F1E94B965B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F1E94AC1545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 23
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 17
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 26
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 31
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 28
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 10
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 21
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC9599F3630  Unknown               Unknown  Unknown
+libc.so.6          00007FC957F4B5B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FC957E76545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F2B15246630  Unknown               Unknown  Unknown
+libc.so.6          00007F2B1379E5B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F2B136C9545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007EFE2C05A630  Unknown               Unknown  Unknown
+libc.so.6          00007EFE2A5B25B7  Unknown               Unknown  Unknown
+ph.x               0000000000CFB0CC  Unknown               Unknown  Unknown
+ph.x               0000000000D42DF6  Unknown               Unknown  Unknown
+ph.x               0000000000D3E3F3  Unknown               Unknown  Unknown
+ph.x               0000000000998596  Unknown               Unknown  Unknown
+ph.x               00000000007808E8  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007EFE2A4DD545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown

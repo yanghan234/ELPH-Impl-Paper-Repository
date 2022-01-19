@@ -1,0 +1,13 @@
+ph.x calculation for diamond
+&inputph
+    tr2_ph=1.0d-24,
+    prefix='c',
+    fildvscf='dvscf',
+    amass(1) = 12.011,
+    outdir='./',
+    fildyn='./_ph0/c.dyn',
+    trans=.true.,
+    ldisp=.true.,
+    verbosity = 'low',
+    nq1=2, nq2=2, nq3=2
+/

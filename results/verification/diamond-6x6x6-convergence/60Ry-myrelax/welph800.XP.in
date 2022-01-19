@@ -1,0 +1,35 @@
+{
+  "input_west":
+  {
+    "qe_prefix": "b",
+    "west_prefix": "b",
+    "outdir": "./"
+  },
+  "wstat_control":
+  {
+    "wstat_calculation": "S",
+    "n_pdep_eigen": 800,
+    "l_use_symm": false
+  },
+  "wfreq_control":
+  {
+    "macropol_calculation" : "C",
+    "n_pdep_eigen_to_use": 800,
+    "n_lanczos" : 30,
+    "l_enable_lanczos": true,
+  },
+  "welph_control":
+  {
+    "welph_calculation":"XP",
+    "do_fxc": true,
+    "do_scr": true,
+    "welph_n_pdep_eigen_to_use": 800,
+    "asr": 1,
+    "loto": true,
+    "q_direction": [1.0,0.0,0.0],
+    "temperature": 0.0,
+    "welph_eta": 0.1,
+    "l_enable_gw": false,
+    "welph_band_range":[20,40],
+  }
+}

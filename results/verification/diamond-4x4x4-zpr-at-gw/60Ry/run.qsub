@@ -1,0 +1,91 @@
+#!/bin/bash
+#SBATCH --job-name=b
+#SBATCH --output=test_sbatch.out
+#SBATCH --error=test_sbatch.err
+#SBATCH --time=05:00:00
+#SBATCH --account=pi-gagalli
+#SBATCH --partition=gm4-pmext
+#SBATCH --qos=gm4-cpu
+#SBATCH --nodes=2
+##SBATCH --mail-user=yanghan@uchicago.edu
+##SBATCH --mail-type=ALL
+#SBATCH --ntasks-per-node=40
+##SBATCH --constraint=e5-2680v2
+
+# LOAD MODULE ENVIRONMENT
+#module load  espresso/6.0-west-2.0+intelmpi-5.1+intel-16.0
+#
+module unload intelmpi intel mkl Anaconda3
+module load intelmpi/5.1+intel-16.0 mkl fftw3/3.3.5+intelmpi-5.1+intel-16.0 python/anaconda-2020.02
+# RUN JOB BELOW
+## Run WELPH calculations
+PREFIX=c
+## SCF calculation
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < scf.in >& scf.out
+#
+## NSCF, only 8 states
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < nscf8.in >& nscf8.out
+#
+## WSTAT
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wstat.x -nimage 4 -i wstat.in >& wstat.out
+#
+# ## WFREQ: 8 bands, strict configurtion to converge
+# echo "WFREQ: 8 bands, strict configurtion to converge"
+# rm -rf c.welph.save.nbnd8.fully
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wfreq.x -nimage 4 -i wfreq8-fully.in >& wfreq8-fully.out
+# mv o-ehf* o-eqp* c.wfreq.save
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.XP.in >& welph200.XP.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.S.in >&  welph200.S.out
+# mv c.welph.save c.welph.save.nbnd8.fully
+# 
+# ## WFREQ: 8 bands, with Lanczos
+# echo "WFREQ: 8 bands, with Lanczos"
+# rm -rf c.welph.save.nbnd8.lan
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wfreq.x -nimage 4 -i wfreq8-lan.in >& wfreq8-lan.out
+# mv o-ehf* o-eqp* c.wfreq.save
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.XP.in >& welph200.XP.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.S.in >&  welph200.S.out
+# mv c.welph.save c.welph.save.nbnd8.lan
+# 
+# ## NSCF 100 bands
+# echo "NSCF 100 bands"
+# rm -rf c.welph.save.nbnd100.lan.curv
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < nscf100.in >& nscf100.out
+# ## WFREQ: 100 bands, with Lanczos, with curvature
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wfreq.x -nimage 2 -i wfreq100-lan-curv.in >& wfreq100-lan-curv.out
+# mv o-ehf* o-eqp* c.wfreq.save
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.XP.in >& welph200.XP.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.S.in >&  welph200.S.out
+# mv c.welph.save c.welph.save.nbnd100.lan.curv
+# 
+# # ## WFREQ: 100 bands, with Lanczos, without curvature
+# echo "WFREQ: 100 bands, with Lanczos, without curvature"
+# rm -rf c.welph.save.nbnd100.lan.nocurv
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wfreq.x -nimage 2 -i wfreq100-lan-nocurv.in >& wfreq100-lan-nocurv.out
+# mv o-ehf* o-eqp* c.wfreq.save
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.XP.in >& welph200.XP.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.S.in >&  welph200.S.out
+# mv c.welph.save c.welph.save.nbnd100.lan.nocurv
+
+# ## WFREQ: 100 bands, without Lanczos, without curvature
+# echo "WFREQ: 100 bands, without Lanczos, without curvature"
+# rm -rf c.welph.save.nbnd100.nolan.nocurv
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wfreq.x -nimage 2 -i wfreq100-nolan-nocurv.in >& wfreq100-nolan-nocurv.out
+# mv o-ehf* o-eqp* c.wfreq.save
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.XP.in >& welph200.XP.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.S.in >&  welph200.S.out
+# mv c.welph.save c.welph.save.nbnd100.nolan.nocurv
+
+# ## PPM G0W0 with ABINIT
+echo "PPM G0W0 with ABINIT"
+rm -rf c.welph.save.nbnd100.abinit.ppm
+mpirun -np 40 /project2/gagalli/yanghan/midway1/abinit-8.8.2/bin/abinit < diamond_gw_ppm.files > diamond_gw_ppm.stdout
+./convert_abinit_qp_to_west_format.py
+rm -rf c.wfreq.save
+mkdir c.wfreq.save
+mv o-ehf* o-eqp* c.wfreq.save
+mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.XP.in >& welph200.XP.out
+mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 2 -i welph200.S.in >&  welph200.S.out
+mv c.welph.save c.welph.save.nbnd100.abinit.ppm
+
+

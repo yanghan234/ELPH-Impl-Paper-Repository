@@ -1,0 +1,1045 @@
+
+     Program PHONON v.6.1 (svn rev. 13369) starts on 16Dec2020 at  9:40: 9 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      80 processor cores
+     Number of MPI processes:                80
+     Threads/MPI process:                     1
+     R & G space division:  proc/nbgrp/npool/nimage =      80
+
+     Reading data from directory:
+     ./c.save
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+               file C.pz-mt.fhi.UPF: wavefunction(s)  3d renormalized
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           7       7      2                  123      123      20
+     Max           8       8      3                  129      129      25
+     Sum         613     613    187                10081    10081    1687
+ 
+
+
+     Dynamical matrices for ( 4, 4, 4)  uniform grid of q-points
+     (   8q-points):
+       N         xq(1)         xq(2)         xq(3) 
+       1   0.000000000   0.000000000   0.000000000
+       2  -0.250000000   0.250000000  -0.250000000
+       3   0.500000000  -0.500000000   0.500000000
+       4   0.000000000   0.500000000   0.000000000
+       5   0.750000000  -0.250000000   0.750000000
+       6   0.500000000   0.000000000   0.500000000
+       7   0.000000000  -1.000000000   0.000000000
+       8  -0.500000000  -1.000000000   0.000000000
+
+     Calculation of q =    0.0000000   0.0000000   0.0000000
+
+                                                                                
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       6.7034  a.u.
+     unit-cell volume          =      75.3061 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     kinetic-energy cut-off    =     100.0000  Ry
+     charge density cut-off    =     400.0000  Ry
+     convergence threshold     =      1.0E-24
+     beta                      =       0.7000
+     number of iterations used =            4
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+
+
+     celldm(1)=    6.70343  celldm(2)=    0.00000  celldm(3)=    0.00000
+     celldm(4)=    0.00000  celldm(5)=    0.00000  celldm(6)=    0.00000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = ( -0.5000  0.0000  0.5000 )  
+               a(2) = (  0.0000  0.5000  0.5000 )  
+               a(3) = ( -0.5000  0.5000  0.0000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -1.0000 -1.0000  1.0000 )  
+               b(2) = (  1.0000  1.0000  1.0000 )  
+               b(3) = ( -1.0000  1.0000 -1.0000 )  
+
+
+     Atoms inside the unit cell: 
+
+     Cartesian axes
+
+     site n.  atom      mass           positions (alat units)
+        1     C   12.0110   tau(    1) = (    0.00000    0.00000    0.00000  )
+        2     C   12.0110   tau(    2) = (   -0.25000    0.25000    0.25000  )
+
+     Computing dynamical matrix for 
+                    q = (   0.0000000   0.0000000   0.0000000 )
+ 
+     49 Sym.Ops. (with q -> -q+G )
+
+
+     G cutoff =  455.2960  (    129 G-vectors)     FFT grid: ( 32, 32, 32)
+     number of k points=     8
+
+     PseudoPot. # 1 for  C read from file:
+     ../C.pz-mt.fhi.UPF
+     MD5 check sum: b7c38bc33a0cf75f44be89b84470f298
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  461 points,  2 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+
+     Mode symmetry, O_h (m-3m)  point group:
+
+
+     Electric field:
+     Dielectric constant
+     Born effective charges in two ways 
+
+
+     Atomic displacements:
+     There are   2 irreducible representations
+
+     Representation     1      3 modes -T_2g G_25' G_5+  To be done
+
+     Representation     2      3 modes -T_1u G_15  G_4-  To be done
+
+
+
+     Alpha used in Ewald sum =   2.8000
+     PHONON       :     0.81s CPU         2.61s WALL
+
+
+     Electric Fields Calculation
+
+      iter #   1 total cpu time :     3.4 secs   av.it.:   5.3
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  2.554E-09
+
+      iter #   2 total cpu time :     4.3 secs   av.it.:   9.9
+      thresh= 5.054E-06 alpha_mix =  0.700 |ddv_scf|^2 =  2.957E-11
+
+      iter #   3 total cpu time :     4.6 secs   av.it.:   9.9
+      thresh= 5.438E-07 alpha_mix =  0.700 |ddv_scf|^2 =  1.456E-12
+
+      iter #   4 total cpu time :     4.9 secs   av.it.:  10.1
+      thresh= 1.207E-07 alpha_mix =  0.700 |ddv_scf|^2 =  2.445E-15
+
+      iter #   5 total cpu time :     7.0 secs   av.it.:   9.7
+      thresh= 4.944E-09 alpha_mix =  0.700 |ddv_scf|^2 =  3.824E-19
+
+      iter #   6 total cpu time :     9.0 secs   av.it.:  10.1
+      thresh= 6.184E-11 alpha_mix =  0.700 |ddv_scf|^2 =  3.728E-21
+
+      iter #   7 total cpu time :     9.5 secs   av.it.:   9.5
+      thresh= 6.105E-12 alpha_mix =  0.700 |ddv_scf|^2 =  2.656E-24
+
+      iter #   8 total cpu time :     9.8 secs   av.it.:   9.4
+      thresh= 1.630E-13 alpha_mix =  0.700 |ddv_scf|^2 =  1.906E-26
+
+     End of electric fields calculation
+
+          Dielectric constant in cartesian axis 
+
+          (       7.232623016       0.000000000       0.000000000 )
+          (       0.000000000       7.232623016      -0.000000000 )
+          (       0.000000000      -0.000000000       7.232623016 )
+
+          Effective charges (d Force / dE) in cartesian axis
+
+           atom      1   C  
+      Ex  (       -0.34910       -0.00000       -0.00000 )
+      Ey  (       -0.00000       -0.34910       -0.00000 )
+      Ez  (       -0.00000       -0.00000       -0.34910 )
+           atom      2   C  
+      Ex  (       -0.34910       -0.00000        0.00000 )
+      Ey  (        0.00000       -0.34910        0.00000 )
+      Ez  (       -0.00000        0.00000       -0.34910 )
+
+
+     Representation #  1 modes #   1  2  3
+
+     Self-consistent Calculation
+
+      iter #   1 total cpu time :    10.9 secs   av.it.:   5.6
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  3.925E-08
+
+      iter #   2 total cpu time :    12.2 secs   av.it.:   9.8
+      thresh= 1.981E-05 alpha_mix =  0.700 |ddv_scf|^2 =  1.004E-10
+
+      iter #   3 total cpu time :    13.1 secs   av.it.:   9.5
+      thresh= 1.002E-06 alpha_mix =  0.700 |ddv_scf|^2 =  1.585E-12
+
+      iter #   4 total cpu time :    13.6 secs   av.it.:   9.3
+      thresh= 1.259E-07 alpha_mix =  0.700 |ddv_scf|^2 =  2.323E-15
+
+      iter #   5 total cpu time :    14.0 secs   av.it.:   9.8
+      thresh= 4.820E-09 alpha_mix =  0.700 |ddv_scf|^2 =  1.736E-18
+
+      iter #   6 total cpu time :    14.5 secs   av.it.:  10.0
+      thresh= 1.318E-10 alpha_mix =  0.700 |ddv_scf|^2 =  5.547E-20
+
+      iter #   7 total cpu time :    14.8 secs   av.it.:  10.0
+      thresh= 2.355E-11 alpha_mix =  0.700 |ddv_scf|^2 =  5.694E-23
+
+      iter #   8 total cpu time :    15.7 secs   av.it.:   9.7
+      thresh= 7.546E-13 alpha_mix =  0.700 |ddv_scf|^2 =  4.771E-24
+
+      iter #   9 total cpu time :    16.4 secs   av.it.:   9.6
+      thresh= 2.184E-13 alpha_mix =  0.700 |ddv_scf|^2 =  6.634E-28
+
+     End of self-consistent calculation
+
+     Convergence has been achieved 
+
+
+     Representation #  2 modes #   4  5  6
+
+     Self-consistent Calculation
+
+      iter #   1 total cpu time :    17.0 secs   av.it.:   6.1
+      thresh= 1.000E-02 alpha_mix =  0.700 |ddv_scf|^2 =  2.598E-08
+
+      iter #   2 total cpu time :    17.4 secs   av.it.:  10.4
+      thresh= 1.612E-05 alpha_mix =  0.700 |ddv_scf|^2 =  2.559E-11
+
+      iter #   3 total cpu time :    18.0 secs   av.it.:   9.9
+      thresh= 5.059E-07 alpha_mix =  0.700 |ddv_scf|^2 =  2.316E-12
+
+      iter #   4 total cpu time :    18.5 secs   av.it.:   9.9
+      thresh= 1.522E-07 alpha_mix =  0.700 |ddv_scf|^2 =  1.784E-15
+
+      iter #   5 total cpu time :    18.8 secs   av.it.:  10.6
+      thresh= 4.223E-09 alpha_mix =  0.700 |ddv_scf|^2 =  2.987E-19
+
+      iter #   6 total cpu time :    19.1 secs   av.it.:  10.6
+      thresh= 5.465E-11 alpha_mix =  0.700 |ddv_scf|^2 =  1.409E-20
+
+      iter #   7 total cpu time :    19.6 secs   av.it.:   9.5
+      thresh= 1.187E-11 alpha_mix =  0.700 |ddv_scf|^2 =  8.267E-25
+
+     End of self-consistent calculation
+
+     Convergence has been achieved 
+ 
+     Number of q in the star =    1
+     List of q in the star:
+          1   0.000000000   0.000000000   0.000000000
+
+          Dielectric constant in cartesian axis 
+
+          (       7.232623016       0.000000000       0.000000000 )
+          (       0.000000000       7.232623016      -0.000000000 )
+          (       0.000000000      -0.000000000       7.232623016 )
+
+          Effective charges (d Force / dE) in cartesian axis
+
+           atom      1   C  
+      Ex  (       -0.34910       -0.00000       -0.00000 )
+      Ey  (       -0.00000       -0.34910       -0.00000 )
+      Ez  (       -0.00000       -0.00000       -0.34910 )
+           atom      2   C  
+      Ex  (       -0.34910       -0.00000        0.00000 )
+      Ey  (        0.00000       -0.34910        0.00000 )
+      Ez  (       -0.00000        0.00000       -0.34910 )
+
+          Effective charges (d P / du) in cartesian axis 
+
+           atom      1   C  
+      Px  (       -0.34910        0.00000        0.00000 )
+      Py  (        0.00000       -0.34910        0.00000 )
+      Pz  (        0.00000        0.00000       -0.34910 )
+           atom      2   C  
+      Px  (       -0.34910        0.00000        0.00000 )
+      Py  (        0.00000       -0.34910        0.00000 )
+      Pz  (        0.00000        0.00000       -0.34910 )
+
+     Diagonalizing the dynamical matrix
+
+     q = (    0.000000000   0.000000000   0.000000000 ) 
+
+ **************************************************************************
+     freq (    1) =      -5.102761 [THz] =    -170.209774 [cm-1]
+     freq (    2) =      -5.102761 [THz] =    -170.209774 [cm-1]
+     freq (    3) =      -5.102761 [THz] =    -170.209774 [cm-1]
+     freq (    4) =      39.381571 [THz] =    1313.627813 [cm-1]
+     freq (    5) =      39.381571 [THz] =    1313.627813 [cm-1]
+     freq (    6) =      39.381571 [THz] =    1313.627813 [cm-1]
+ **************************************************************************
+
+     Mode symmetry, O_h (m-3m)  point group:
+
+     freq (  1 -  3) =       -170.2  [cm-1]   --> T_1u G_15  G_4- I  
+     freq (  4 -  6) =       1313.6  [cm-1]   --> T_2g G_25' G_5+ R  
+
+     Calculation of q =   -0.2500000   0.2500000  -0.2500000
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           7       7      2                  123      123      22
+     Max           8       8      3                  129      129      27
+     Sum         613     613    199                10081    10081    1917
+ 
+
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       6.7034  a.u.
+     unit-cell volume          =      75.3061 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.00
+     number of Kohn-Sham states=            8
+     kinetic-energy cutoff     =     100.0000  Ry
+     charge density cutoff     =     400.0000  Ry
+     Exchange-correlation      = PZ ( 1  1  0  0 0 0)
+
+     celldm(1)=   6.703426  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  -0.500000   0.000000   0.500000 )  
+               a(2) = (   0.000000   0.500000   0.500000 )  
+               a(3) = (  -0.500000   0.500000   0.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -1.000000 -1.000000  1.000000 )  
+               b(2) = (  1.000000  1.000000  1.000000 )  
+               b(3) = ( -1.000000  1.000000 -1.000000 )  
+
+
+     PseudoPot. # 1 for  C read from file:
+     ../C.pz-mt.fhi.UPF
+     MD5 check sum: b7c38bc33a0cf75f44be89b84470f298
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using FHI98PP, converted with fhi2upf.x v.5.0.2
+     Using radial grid of  461 points,  2 beta functions with: 
+                l(1) =   0
+                l(2) =   1
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.01100      C( 1.00)
+
+     48 Sym. Ops., with inversion, found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           C   tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           C   tau(   2) = (  -0.2500000   0.2500000   0.2500000  )
+
+     number of k points=    40
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0312500
+        k(    2) = (  -0.2500000   0.2500000  -0.2500000), wk =   0.0000000
+        k(    3) = (  -0.2500000   0.2500000  -0.2500000), wk =   0.0312500
+        k(    4) = (  -0.5000000   0.5000000  -0.5000000), wk =   0.0000000
+        k(    5) = (   0.5000000  -0.5000000   0.5000000), wk =   0.0312500
+        k(    6) = (   0.2500000  -0.2500000   0.2500000), wk =   0.0000000
+        k(    7) = (   0.0000000   0.5000000   0.0000000), wk =   0.0937500
+        k(    8) = (  -0.2500000   0.7500000  -0.2500000), wk =   0.0000000
+        k(    9) = (   0.7500000  -0.2500000   0.7500000), wk =   0.0937500
+        k(   10) = (   0.5000000   0.0000000   0.5000000), wk =   0.0000000
+        k(   11) = (   0.5000000   0.0000000   0.5000000), wk =   0.0937500
+        k(   12) = (   0.2500000   0.2500000   0.2500000), wk =   0.0000000
+        k(   13) = (   0.0000000  -1.0000000   0.0000000), wk =   0.0937500
+        k(   14) = (  -0.2500000  -0.7500000  -0.2500000), wk =   0.0000000
+        k(   15) = (  -0.5000000  -1.0000000   0.0000000), wk =   0.1875000
+        k(   16) = (  -0.7500000  -0.7500000  -0.2500000), wk =   0.0000000
+        k(   17) = (   0.2500000  -0.2500000  -0.2500000), wk =   0.0937500
+        k(   18) = (   0.0000000   0.0000000  -0.5000000), wk =   0.0000000
+        k(   19) = (   0.2500000  -0.2500000   0.2500000), wk =   0.0312500
+        k(   20) = (   0.0000000   0.0000000   0.0000000), wk =   0.0000000
+        k(   21) = (  -0.2500000  -0.2500000  -0.2500000), wk =   0.0937500
+        k(   22) = (  -0.5000000   0.0000000  -0.5000000), wk =   0.0000000
+        k(   23) = (  -0.5000000   0.5000000   0.5000000), wk =   0.0937500
+        k(   24) = (  -0.7500000   0.7500000   0.2500000), wk =   0.0000000
+        k(   25) = (   0.0000000   0.0000000   0.5000000), wk =   0.0937500
+        k(   26) = (  -0.2500000   0.2500000   0.2500000), wk =   0.0000000
+        k(   27) = (  -0.7500000   0.7500000   0.2500000), wk =   0.0937500
+        k(   28) = (  -1.0000000   1.0000000   0.0000000), wk =   0.0000000
+        k(   29) = (  -0.7500000   0.7500000  -0.2500000), wk =   0.0937500
+        k(   30) = (  -1.0000000   1.0000000  -0.5000000), wk =   0.0000000
+        k(   31) = (  -0.7500000   0.2500000   0.7500000), wk =   0.1875000
+        k(   32) = (  -1.0000000   0.5000000   0.5000000), wk =   0.0000000
+        k(   33) = (   0.7500000   0.2500000   0.7500000), wk =   0.0937500
+        k(   34) = (   0.5000000   0.5000000   0.5000000), wk =   0.0000000
+        k(   35) = (   0.7500000  -0.2500000  -0.7500000), wk =   0.1875000
+        k(   36) = (   0.5000000   0.0000000  -1.0000000), wk =   0.0000000
+        k(   37) = (  -0.5000000   0.5000000   0.0000000), wk =   0.0937500
+        k(   38) = (  -0.7500000   0.7500000  -0.2500000), wk =   0.0000000
+        k(   39) = (  -0.5000000   0.0000000   0.5000000), wk =   0.1875000
+        k(   40) = (  -0.7500000   0.2500000   0.2500000), wk =   0.0000000
+
+     Dense  grid:    10081 G-vectors     FFT dimensions: (  32,  32,  32)
+
+     Estimated max dynamical RAM per process >       0.35MB
+
+     Estimated total allocated dynamical RAM >      27.69MB
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine read_rho_xml (1):
+     dimensions do not match
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 0
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F32AD1D3630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABE5EAAB  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABF6AE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABF6AB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABE4444A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABE43F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABE43D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABE43BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABE43B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F32ABE45932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F32AC56AB1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F32AB656545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F8E1704A630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15CD5AAB  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15DE1E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15DE1B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15CBB44A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15CBAF0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15CBAD17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15CBABDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15CBAB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8E15CBC932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F8E163E1B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F8E154CD545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F0EAF3B9630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE0447A1  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE150E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE150B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE02A44A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE029F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE029D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE029BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE029B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0EAE02B932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F0EAE750B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F0EAD83C545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007EFC5E892630  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D51D6D7  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D629E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D629B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D50344A  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D502F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D502D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D502BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D502B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC5D504932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007EFC5DC29B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007EFC5CD15545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F56FFCD4630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FE960146  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FEA6BE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FEA6BB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FE94544A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FE944F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FE944D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FE944BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FE944B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F56FE946932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F56FF06BB1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F56FE157545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FBB6B149630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69DD4F60  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69EE0E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69EE0B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69DBA44A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69DB9F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69DB9D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69DB9BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69DB9B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBB69DBB932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FBB6A4E0B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FBB695CC545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FD3AEE5A630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADAE5665  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADBF1E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADBF1B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADACB44A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADACAF0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADACAD17  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADACABDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADACAB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD3ADACC932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FD3AE1F1B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FD3AD2DD545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FA3CF200630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDE8B6CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDF97E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDF97B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDE7144A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDE70F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDE70D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDE70BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDE70B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA3CDE72932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FA3CE597B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FA3CD683545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F73787F4630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F737747F6FA  Unknown               Unknown  Unknown
+libmpi.so.12       00007F737758BE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F737758BB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F737746544A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7377464F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7377464D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7377464BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7377464B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7377466932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F7377B8BB1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F7376C77545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FBA39FE2630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38C6D6D4  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38D79E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38D79B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38C5344A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38C52F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38C52D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38C52BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38C52B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBA38C54932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FBA39379B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FBA38465545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F842ADF5630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429A8073E  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429B8CE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429B8CB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429A6644A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429A65F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429A65D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429A65BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429A65B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F8429A67932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F842A18CB1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F8429278545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FDCE9410630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE809B6D4  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE81A7E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE81A7B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE808144A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE8080F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE8080D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE8080BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE8080B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCE8082932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FDCE87A7B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FDCE7893545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F380A77B630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F38094066D7  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3809512E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3809512B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F38093EC44A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F38093EBF0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F38093EBD17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F38093EBBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F38093EBB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F38093ED932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F3809B12B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F3808BFE545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F3B54A06630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B53691A8D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B5379DE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B5379DB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B5367744A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B53676F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B53676D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B53676BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B53676B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3B53678932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F3B53D9DB1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F3B52E89545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F3368707630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F33673926D7  Unknown               Unknown  Unknown
+libmpi.so.12       00007F336749EE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F336749EB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F336737844A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3367377F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3367377D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3367377BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3367377B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3367379932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F3367A9EB1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F3366B8A545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F344EE7A630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DCC2F42  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DB062E8  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DC11E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DC11B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DAEB44A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DAEAF0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DAEAD17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DAEABDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DAEAB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F344DAEC932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F344E211B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F344D2FD545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FB5394FF630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB53818A6D4  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB538296E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB538296B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB53817044A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB53816FF0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB53816FD17  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB53816FBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB53816FB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB538171932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FB538896B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FB537982545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FBF0BEC9630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AD11F42  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AB552E8  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AC60E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AC60B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AB3A44A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AB39F0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AB39D17  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AB39BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AB39B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF0AB3B932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FBF0B260B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007FBF0A34C545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+ph.x               0000000000DC31F5  Unknown               Unknown  Unknown
+ph.x               0000000000DC0E17  Unknown               Unknown  Unknown
+ph.x               0000000000D6F794  Unknown               Unknown  Unknown
+ph.x               0000000000D6F5A6  Unknown               Unknown  Unknown
+ph.x               0000000000CDAD99  Unknown               Unknown  Unknown
+ph.x               0000000000CE282E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F4E8F93C630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E784F30  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E5C82E8  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E6D3E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E6D3B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E5AD44A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E5ACF0A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E5ACD17  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E5ACBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E5ACB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4E8E5AE932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F4E8ECD3B1C  Unknown               Unknown  Unknown
+ph.x               00000000009F64B3  Unknown               Unknown  Unknown
+ph.x               00000000009D9654  Unknown               Unknown  Unknown
+ph.x               0000000000AD1F35  Unknown               Unknown  Unknown
+ph.x               000000000070F099  Unknown               Unknown  Unknown
+ph.x               000000000077EBBF  Unknown               Unknown  Unknown
+ph.x               00000000006FF508  Unknown               Unknown  Unknown
+ph.x               00000000004E6DDF  Unknown               Unknown  Unknown
+ph.x               0000000000457EF2  Unknown               Unknown  Unknown
+ph.x               000000000045347D  Unknown               Unknown  Unknown
+ph.x               00000000004533DE  Unknown               Unknown  Unknown
+libc.so.6          00007F4E8DDBF545  Unknown               Unknown  Unknown
+ph.x               00000000004532E9  Unknown               Unknown  Unknown

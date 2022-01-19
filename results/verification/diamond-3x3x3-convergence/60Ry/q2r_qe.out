@@ -1,0 +1,76 @@
+
+     Program Q2R v.6.1 (svn rev. 13369) starts on 17Dec2020 at 12: 5:38 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      40 processor cores
+     Number of MPI processes:                40
+     Threads/MPI process:                     1
+     R & G space division:  proc/nbgrp/npool/nimage =      40
+
+     reading grid info from file _ph0/c.dyn0    
+  reading force constants from file _ph0/c.dyn1
+ macroscopic fields = T
+   9.27246   0.00000   0.00000
+   0.00000   9.27246   0.00000
+   0.00000   0.00000   9.27246
+  na=            1
+  -0.89487   0.00000   0.00000
+   0.00000  -0.89487   0.00000
+   0.00000   0.00000  -0.89487
+  na=            2
+  -0.89487   0.00000   0.00000
+   0.00000  -0.89487   0.00000
+   0.00000   0.00000  -0.89487
+  nqs=            1
+ q=   0.00000000  0.00000000  0.00000000
+  reading force constants from file _ph0/c.dyn2
+  nqs=            8
+ q=  -0.33333333  0.33333333 -0.33333333
+ q=   0.33333333  0.33333333 -0.33333333
+ q=   0.33333333  0.33333333  0.33333333
+ q=  -0.33333333  0.33333333  0.33333333
+ q=   0.33333333 -0.33333333  0.33333333
+ q=  -0.33333333 -0.33333333 -0.33333333
+ q=   0.33333333 -0.33333333 -0.33333333
+ q=  -0.33333333 -0.33333333  0.33333333
+  reading force constants from file _ph0/c.dyn3
+  nqs=            6
+ q=   0.00000000  0.66666667  0.00000000
+ q=  -0.66666667  0.00000000  0.00000000
+ q=   0.00000000 -0.66666667  0.00000000
+ q=   0.00000000  0.00000000  0.66666667
+ q=   0.00000000  0.00000000 -0.66666667
+ q=   0.66666667  0.00000000  0.00000000
+  reading force constants from file _ph0/c.dyn4
+  nqs=           12
+ q=   0.66666667  0.00000000  0.66666667
+ q=   0.66666667  0.00000000 -0.66666667
+ q=  -0.66666667  0.00000000 -0.66666667
+ q=  -0.66666667  0.00000000  0.66666667
+ q=   0.00000000 -0.66666667  0.66666667
+ q=  -0.66666667  0.66666667  0.00000000
+ q=  -0.66666667 -0.66666667  0.00000000
+ q=   0.66666667  0.66666667  0.00000000
+ q=   0.66666667 -0.66666667  0.00000000
+ q=   0.00000000  0.66666667  0.66666667
+ q=   0.00000000  0.66666667 -0.66666667
+ q=   0.00000000 -0.66666667 -0.66666667
+
+      q-space grid ok, #points =   27
+
+      fft-check success (sum of imaginary terms < 10^-12)
+ 
+     Q2R          :     0.07s CPU         0.30s WALL
+
+ 
+   This run was terminated on:  12: 5:38  17Dec2020            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=
