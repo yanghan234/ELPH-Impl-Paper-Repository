@@ -1,0 +1,5 @@
+/diamond-8x8x8-60Ry/c.welph.save/reFMselfen_DFT_nad_resolved.tab filter=lfs diff=lfs merge=lfs -text
+/diamond-8x8x8-60Ry/c.welph.save/EPCE_DFT_DW.tab filter=lfs diff=lfs merge=lfs -text
+/diamond-8x8x8-60Ry/c.welph.save/reFMselfen_DFT_adi_resolved.tab filter=lfs diff=lfs merge=lfs -text
+/two-n-in-5x5x5-50Ry/center-structure/wfc-cube.tar.gz filter=lfs diff=lfs merge=lfs -text
+/two-n-in-5x5x5-50Ry/n2.welph.save.pdep1200/eigenmodes_iq00001.xml filter=lfs diff=lfs merge=lfs -text

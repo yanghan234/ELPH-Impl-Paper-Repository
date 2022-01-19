@@ -1,0 +1,226 @@
+{
+  "runjob": {
+    "startdate": "24Jan2021",
+    "starttime": "16:33: 0",
+    "completed": false
+  },
+  "software": {
+    "package": "WEST",
+    "program": "WFREQ",
+    "version": "3.1.1",
+    "website": "http://www.west-code.org",
+    "citation": "M. Govoni et al., J. Chem. Theory Comput. 11, 2680 (2015).",
+    "qeversion": "6.1",
+    "qesvn": "13369"
+  },
+  "config": {
+    "io": {
+      "islittleendian": true
+    }
+  },
+  "parallel": {
+    "nranks": 60,
+    "nimage": 3,
+    "npool": 1,
+    "nbgrp": 1,
+    "nrg": 20,
+    "nproc": 60,
+    "nthreads": 1
+  },
+  "input": {
+    "input_west": {
+      "qe_prefix": "b",
+      "west_prefix": "b",
+      "outdir": "./"
+    },
+    "wstat_control": {
+      "wstat_calculation": "S",
+      "n_pdep_eigen": 800,
+      "n_pdep_times": 4,
+      "n_pdep_maxiter": 100,
+      "n_dfpt_maxiter": 250,
+      "n_pdep_read_from_file": 0,
+      "trev_pdep": 0.1E-2,
+      "trev_pdep_rel": 0.10000000000000001E+0,
+      "tr2_dfpt": 0.99999999999999998E-12,
+      "l_kinetic_only": false,
+      "l_minimize_exx_if_active": false,
+      "l_use_ecutrho": false,
+      "l_use_symm": true,
+      "nq": [
+        1,
+        1,
+        1
+      ]
+    },
+    "wfreq_control": {
+      "wfreq_calculation": "XWGQ",
+      "n_pdep_eigen_to_use": 800,
+      "qp_bandrange": [
+        1,
+        2
+      ],
+      "macropol_calculation": "C",
+      "n_lanczos": 30,
+      "n_imfreq": 128,
+      "n_refreq": 272,
+      "ecut_imfreq": 0.2E+3,
+      "ecut_refreq": 0.2E+1,
+      "wfreq_eta": 0.36749999999999999E-2,
+      "n_secant_maxiter": 21,
+      "trev_secant": 0.36749999999999999E-2,
+      "l_enable_lanczos": true,
+      "l_enable_gwetot": false,
+      "o_restart_time": 0.0E+0,
+      "ecut_spectralf": [
+        -0.2E+1,
+        0.2E+1
+      ],
+      "n_spectralf": 10,
+      "l_read_common_pdep": false,
+      "l_enable_gb_curvature": true
+    }
+  },
+  "system": {
+    "basis": {
+      "npw": {
+        "proc": [
+          607,
+          607,
+          607,
+          607,
+          606,
+          606,
+          606,
+          607,
+          607,
+          606,
+          606,
+          607,
+          607,
+          607,
+          607,
+          607,
+          607,
+          607,
+          607,
+          607
+        ],
+        "min": 606,
+        "max": 607,
+        "sum": 12135
+      },
+      "ngm": {
+        "proc": [
+          4889,
+          4889,
+          4889,
+          4889,
+          4888,
+          4888,
+          4888,
+          4888,
+          4887,
+          4887,
+          4888,
+          4887,
+          4887,
+          4887,
+          4886,
+          4886,
+          4886,
+          4886,
+          4888,
+          4888
+        ],
+        "min": 4886,
+        "max": 4889,
+        "sum": 97751
+      },
+      "gamma_only": false,
+      "ecutwfc:ry": 0.5E+2,
+      "ecutrho:ry": 0.2E+3
+    },
+    "cell": {
+      "units": "a.u.",
+      "omega": 0.20465693386410792E+4,
+      "a1": [
+        -0.10061523695180909E+2,
+        -0.31042088602889178E-1,
+        0.10061523681875549E+2
+      ],
+      "a2": [
+        0.31042094287191933E-1,
+        0.1006152370895121E+2,
+        0.10061523687567629E+2
+      ],
+      "a3": [
+        -0.10061523716336689E+2,
+        0.10061523724414901E+2,
+        -0.310421113305735E-1
+      ],
+      "b1": [
+        -0.31175882079899508E+0,
+        -0.31079697299109671E+0,
+        0.31175882068500177E+0
+      ],
+      "b2": [
+        0.31079697306534593E+0,
+        0.31175882037231911E+0,
+        0.31175882033281577E+0
+      ],
+      "b3": [
+        -0.3117588194413996E+0,
+        0.31175881936690913E+0,
+        -0.31079697300029951E+0
+      ],
+      "alat": 0.2011027653355573E+2,
+      "tpiba": 0.31243654440532181E+0
+    },
+    "electron": {
+      "nbnd": 150,
+      "nkstot": 1,
+      "nspin": 1,
+      "nelec": 0.214E+3,
+      "npol": 1,
+      "lsda": false,
+      "noncolin": false,
+      "lspinorb": false,
+      "domag": false
+    },
+    "3dfft": {
+      "s": [
+        72,
+        72,
+        72
+      ],
+      "p": [
+        72,
+        72,
+        72
+      ]
+    },
+    "bzsamp": {
+      "k": [
+        {
+          "id": 1,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        }
+      ],
+      "q": [
+        {
+          "id": 1,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        }
+      ]
+    }
+  }
+}

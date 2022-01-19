@@ -1,0 +1,329 @@
+{
+  "runjob": {
+    "startdate": "27Jan2021",
+    "starttime": "21:48:40",
+    "completed": false
+  },
+  "software": {
+    "package": "WEST",
+    "program": "WELPH",
+    "version": "3.1.1",
+    "website": "http://www.west-code.org",
+    "citation": "M. Govoni et al., J. Chem. Theory Comput. 11, 2680 (2015).",
+    "qeversion": "6.1",
+    "qesvn": "13369"
+  },
+  "config": {
+    "io": {
+      "islittleendian": true
+    }
+  },
+  "parallel": {
+    "nranks": 300,
+    "nimage": 5,
+    "npool": 1,
+    "nbgrp": 1,
+    "nrg": 60,
+    "nproc": 300,
+    "nthreads": 1
+  },
+  "input": {
+    "input_west": {
+      "qe_prefix": "b",
+      "west_prefix": "b",
+      "outdir": "./"
+    },
+    "wstat_control": {
+      "wstat_calculation": "S",
+      "n_pdep_eigen": 1000,
+      "n_pdep_times": 4,
+      "n_pdep_maxiter": 100,
+      "n_dfpt_maxiter": 250,
+      "n_pdep_read_from_file": 0,
+      "trev_pdep": 0.1E-2,
+      "trev_pdep_rel": 0.10000000000000001E+0,
+      "tr2_dfpt": 0.99999999999999998E-12,
+      "l_kinetic_only": false,
+      "l_minimize_exx_if_active": false,
+      "l_use_ecutrho": false,
+      "l_use_symm": false,
+      "nq": [
+        1,
+        1,
+        1
+      ]
+    },
+    "wfreq_control": {
+      "wfreq_calculation": "XWGQ",
+      "n_pdep_eigen_to_use": 1000,
+      "qp_bandrange": [
+        1,
+        2
+      ],
+      "macropol_calculation": "C",
+      "n_lanczos": 30,
+      "n_imfreq": 128,
+      "n_refreq": 272,
+      "ecut_imfreq": 0.2E+3,
+      "ecut_refreq": 0.2E+1,
+      "wfreq_eta": 0.36749999999999999E-2,
+      "n_secant_maxiter": 21,
+      "trev_secant": 0.36749999999999999E-2,
+      "l_enable_lanczos": true,
+      "l_enable_gwetot": false,
+      "o_restart_time": 0.0E+0,
+      "ecut_spectralf": [
+        -0.2E+1,
+        0.2E+1
+      ],
+      "n_spectralf": 10,
+      "l_read_common_pdep": false,
+      "l_enable_gb_curvature": true
+    },
+    "welph_control": {
+      "welph_calculation": "S         ",
+      "welph_n_pdep_eigen_to_use": 1000,
+      "asr": 1,
+      "welph_band_range": [
+        480,
+        520
+      ],
+      "do_scr": true,
+      "do_fxc": true,
+      "welph_read_common_pdep": true,
+      "loto": true,
+      "lsym": false,
+      "l_adiabatic": true,
+      "l_enable_gw": true,
+      "q_direction": [
+        0.1E+1,
+        0.0E+0,
+        0.0E+0
+      ],
+      "welph_eta": 0.10000000000000001E+0,
+      "temperature": 0.0E+0
+    }
+  },
+  "system": {
+    "basis": {
+      "npw": {
+        "proc": [
+          929,
+          929,
+          929,
+          929,
+          929,
+          929,
+          929,
+          929,
+          929,
+          929,
+          929,
+          927,
+          927,
+          927,
+          927,
+          927,
+          925,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          927,
+          926,
+          924,
+          929,
+          929,
+          924,
+          924,
+          929,
+          929,
+          929,
+          929,
+          929,
+          928,
+          928,
+          928,
+          928,
+          928,
+          928,
+          928,
+          928,
+          928,
+          928,
+          928,
+          928,
+          928
+        ],
+        "min": 924,
+        "max": 929,
+        "sum": 55657
+      },
+      "ngm": {
+        "proc": [
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7420,
+          7420,
+          7419,
+          7419,
+          7419,
+          7419,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7420,
+          7420,
+          7418,
+          7418,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7419,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7418,
+          7420,
+          7420,
+          7420,
+          7419,
+          7419,
+          7419,
+          7418,
+          7418,
+          7419,
+          7419,
+          7419,
+          7418
+        ],
+        "min": 7418,
+        "max": 7420,
+        "sum": 445125
+      },
+      "gamma_only": false,
+      "ecutwfc:ry": 0.5E+2,
+      "ecutrho:ry": 0.2E+3
+    },
+    "cell": {
+      "units": "a.u.",
+      "omega": 0.93209137128930415E+4,
+      "a1": [
+        -0.1669851496065435E+2,
+        -0.10128197895457981E-1,
+        0.16698514959329898E+2
+      ],
+      "a2": [
+        0.10128204374219541E-1,
+        0.16698514967932521E+2,
+        0.1669851496580678E+2
+      ],
+      "a3": [
+        -0.16698514974097801E+2,
+        0.16698514974899101E+2,
+        -0.1012821136767984E-1
+      ],
+      "b1": [
+        -0.18807904705514966E+0,
+        -0.18796497077379579E+0,
+        0.1880790469913845E+0
+      ],
+      "b2": [
+        0.18796497070995347E+0,
+        0.18807904697317387E+0,
+        0.18807904684554538E+0
+      ],
+      "b3": [
+        -0.18807904675216164E+0,
+        0.18807904681602527E+0,
+        -0.18796497064649118E+0
+      ],
+      "alat": 0.33517127555926209E+2,
+      "tpiba": 0.18746192664319314E+0
+    },
+    "electron": {
+      "nbnd": 600,
+      "nkstot": 1,
+      "nspin": 1,
+      "nelec": 0.998E+3,
+      "npol": 1,
+      "lsda": false,
+      "noncolin": false,
+      "lspinorb": false,
+      "domag": false
+    },
+    "3dfft": {
+      "s": [
+        108,
+        108,
+        108
+      ],
+      "p": [
+        108,
+        108,
+        108
+      ]
+    },
+    "bzsamp": {
+      "k": [
+        {
+          "id": 1,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        }
+      ],
+      "q": [
+        {
+          "id": 1,
+          "crystcoord": [
+            0.0E+0,
+            0.0E+0,
+            0.0E+0
+          ]
+        }
+      ]
+    }
+  }
+}

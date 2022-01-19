@@ -1,0 +1,1364 @@
+
+     Program PWSCF v.6.1 (svn rev. 13369) starts on 29Jan2021 at 10:12:27 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      80 processor cores
+     Number of MPI processes:                80
+     Threads/MPI process:                     1
+     R & G space division:  proc/nbgrp/npool/nimage =      80
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  3
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     one sub-group per band group will be used
+     scalapack distributed-memory algorithm (size of sub-group:  6*  6 procs)
+
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           3       3      1                   42       42       7
+     Max           4       4      2                   48       48      11
+     Sum         313     313    109                 3647     3647     725
+ 
+
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       6.7034  a.u.
+     unit-cell volume          =      75.3061 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.00
+     number of Kohn-Sham states=            8
+     kinetic-energy cutoff     =      50.0000  Ry
+     charge density cutoff     =     200.0000  Ry
+     convergence threshold     =      1.0E-10
+     mixing beta               =       0.7000
+     number of iterations used =            8  local-TF  mixing
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     nstep                     =           50
+
+
+     celldm(1)=   6.703426  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  -0.500000   0.000000   0.500000 )  
+               a(2) = (   0.000000   0.500000   0.500000 )  
+               a(3) = (  -0.500000   0.500000   0.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -1.000000 -1.000000  1.000000 )  
+               b(2) = (  1.000000  1.000000  1.000000 )  
+               b(3) = ( -1.000000  1.000000 -1.000000 )  
+
+
+     PseudoPot. # 1 for C  read from file:
+     ~/PseudoPotential/upf/C_ONCV_PBE-1.0.upf
+     MD5 check sum: Not computed, couldn't open file
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of  602 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.01100     C ( 1.00)
+
+     48 Sym. Ops., with inversion, found (24 have fractional translation)
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           C   tau(   1) = (   0.0000000   0.0000000   0.0000000  )
+         2           C   tau(   2) = (  -0.2500000   0.2500000   0.2500000  )
+
+     number of k points=    10
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0160000
+        k(    2) = (  -0.2000000   0.2000000  -0.2000000), wk =   0.1280000
+        k(    3) = (  -0.4000000   0.4000000  -0.4000000), wk =   0.1280000
+        k(    4) = (   0.0000000   0.4000000   0.0000000), wk =   0.0960000
+        k(    5) = (  -0.2000000   0.6000000  -0.2000000), wk =   0.3840000
+        k(    6) = (   0.6000000  -0.2000000   0.6000000), wk =   0.3840000
+        k(    7) = (   0.4000000   0.0000000   0.4000000), wk =   0.1920000
+        k(    8) = (   0.0000000   0.8000000   0.0000000), wk =   0.0960000
+        k(    9) = (   0.8000000   0.0000000   0.8000000), wk =   0.1920000
+        k(   10) = (   0.6000000  -0.2000000   1.0000000), wk =   0.3840000
+
+     Dense  grid:     3647 G-vectors     FFT dimensions: (  24,  24,  24)
+
+     Estimated max dynamical RAM per process >       0.13MB
+
+     Estimated total allocated dynamical RAM >      10.02MB
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+
+     Initial potential from superposition of free atoms
+
+     starting charge    7.98607, renormalised to    8.00000
+     Starting wfc are random
+
+     total cpu time spent up to now is        0.2 secs
+
+     per-process dynamical memory:    19.3 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-02,  avg # of iterations =  8.7
+
+     total cpu time spent up to now is        0.8 secs
+
+     total energy              =     -22.70919812 Ry
+     Harris-Foulkes estimate   =     -22.74513937 Ry
+     estimated scf accuracy    <       0.11082157 Ry
+
+     iteration #  2     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.39E-03,  avg # of iterations =  1.8
+
+     total cpu time spent up to now is        1.0 secs
+
+     total energy              =     -22.75896745 Ry
+     Harris-Foulkes estimate   =     -22.77042200 Ry
+     estimated scf accuracy    <       0.02705231 Ry
+
+     iteration #  3     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  3.38E-04,  avg # of iterations =  3.2
+
+     total cpu time spent up to now is        1.2 secs
+
+     total energy              =     -22.76839893 Ry
+     Harris-Foulkes estimate   =     -22.76827933 Ry
+     estimated scf accuracy    <       0.00014663 Ry
+
+     iteration #  4     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.83E-06,  avg # of iterations =  5.2
+
+     total cpu time spent up to now is        1.6 secs
+
+     total energy              =     -22.76850167 Ry
+     Harris-Foulkes estimate   =     -22.76852759 Ry
+     estimated scf accuracy    <       0.00007718 Ry
+
+     iteration #  5     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  9.65E-07,  avg # of iterations =  1.6
+
+     total cpu time spent up to now is        1.7 secs
+
+     total energy              =     -22.76850575 Ry
+     Harris-Foulkes estimate   =     -22.76850592 Ry
+     estimated scf accuracy    <       0.00000123 Ry
+
+     iteration #  6     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.53E-08,  avg # of iterations =  2.9
+
+     total cpu time spent up to now is        2.0 secs
+
+     total energy              =     -22.76850599 Ry
+     Harris-Foulkes estimate   =     -22.76850600 Ry
+     estimated scf accuracy    <       0.00000001 Ry
+
+     iteration #  7     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.64E-10,  avg # of iterations =  2.6
+
+     total cpu time spent up to now is        2.2 secs
+
+     total energy              =     -22.76850599 Ry
+     Harris-Foulkes estimate   =     -22.76850600 Ry
+     estimated scf accuracy    <          5.0E-09 Ry
+
+     iteration #  8     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  6.20E-11,  avg # of iterations =  2.2
+
+     total cpu time spent up to now is        2.4 secs
+
+     total energy              =     -22.76850599 Ry
+     Harris-Foulkes estimate   =     -22.76850599 Ry
+     estimated scf accuracy    <          1.6E-10 Ry
+
+     iteration #  9     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.02E-12,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is        2.6 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 (   459 PWs)   bands (ev):
+
+    -8.0452  13.6685  13.6685  13.6685  19.3109  19.3109  19.3109  27.3295
+
+          k =-0.2000 0.2000-0.2000 (   459 PWs)   bands (ev):
+
+    -6.9318   8.7090  12.3144  12.3144  21.0697  21.0697  21.5374  28.1697
+
+          k =-0.4000 0.4000-0.4000 (   443 PWs)   bands (ev):
+
+    -3.7268   2.1051  10.9908  10.9908  22.1925  22.1925  22.6248  29.4392
+
+          k = 0.0000 0.4000 0.0000 (   459 PWs)   bands (ev):
+
+    -6.5621  10.3744  10.3744  10.5573  18.4437  23.8536  23.8536  25.6716
+
+          k =-0.2000 0.6000-0.2000 (   452 PWs)   bands (ev):
+
+    -4.0383   4.7617   8.8982   9.1794  19.8364  25.0353  25.6245  25.7315
+
+          k = 0.6000-0.2000 0.6000 (   448 PWs)   bands (ev):
+
+    -1.5861   1.3160   7.2021   9.7539  20.9957  24.6664  25.9192  29.1268
+
+          k = 0.4000 0.0000 0.4000 (   449 PWs)   bands (ev):
+
+    -5.1099   6.6087   7.5601  11.6412  22.2748  22.3753  24.3175  27.5619
+
+          k = 0.0000 0.8000 0.0000 (   452 PWs)   bands (ev):
+
+    -2.2591   4.1396   7.6181   7.6181  17.8802  19.9281  29.6059  29.6059
+
+          k = 0.8000 0.0000 0.8000 (   442 PWs)   bands (ev):
+
+     0.8353   1.4367   4.7366   7.8674  19.0711  22.7783  29.0773  29.9587
+
+          k = 0.6000-0.2000 1.0000 (   450 PWs)   bands (ev):
+
+    -1.0295   3.4019   5.2046   7.1661  22.7349  23.6129  25.6317  29.0280
+
+     highest occupied, lowest unoccupied level (ev):    13.6685   17.8802
+
+!    total energy              =     -22.76850599 Ry
+     Harris-Foulkes estimate   =     -22.76850599 Ry
+     estimated scf accuracy    <          1.5E-11 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =       8.17197365 Ry
+     hartree contribution      =       1.91998322 Ry
+     xc contribution           =      -7.14561942 Ry
+     ewald contribution        =     -25.71484344 Ry
+
+     convergence has been achieved in   9 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00000000    0.00000000    0.00000000
+     atom    2 type  1   force =     0.00000000    0.00000000   -0.00000000
+
+     Total force =     0.000000     Total SCF correction =     0.000000
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=  -62.33
+  -0.00042372   0.00000000   0.00000000        -62.33      0.00      0.00
+   0.00000000  -0.00042372  -0.00000000          0.00    -62.33     -0.00
+   0.00000000  -0.00000000  -0.00042372          0.00     -0.00    -62.33
+
+
+     BFGS Geometry Optimization
+
+     number of scf cycles    =   1
+     number of bfgs steps    =   0
+
+     enthalpy new            =     -22.7685059946 Ry
+
+     new trust radius        =       0.0183851108 bohr
+     new conv_thr            =            1.0E-10 Ry
+
+     new unit-cell volume =     72.93823 a.u.^3 (    10.80833 Ang^3 )
+     density =      3.69062 g/cm^3
+
+CELL_PARAMETERS (alat=  6.70342551)
+  -0.494703474  -0.000000000   0.494703474
+  -0.000000000   0.494703474   0.494703474
+  -0.494703474   0.494703474  -0.000000000
+
+ATOMIC_POSITIONS (crystal)
+C       -0.000000000   0.000000000  -0.000000000
+C        0.250000000   0.250000000   0.250000000
+
+
+
+     Writing output data file c.save
+     NEW-OLD atomic charge density approx. for the potential
+     extrapolated charge    7.74074, renormalised to    8.00000
+
+     total cpu time spent up to now is        2.6 secs
+
+     per-process dynamical memory:    20.8 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-06,  avg # of iterations =  3.9
+
+     total cpu time spent up to now is        2.9 secs
+
+     total energy              =     -22.76725478 Ry
+     Harris-Foulkes estimate   =     -22.58666815 Ry
+     estimated scf accuracy    <       0.00051476 Ry
+
+     iteration #  2     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  6.43E-06,  avg # of iterations =  3.3
+
+     total cpu time spent up to now is        3.2 secs
+
+     total energy              =     -22.76821841 Ry
+     Harris-Foulkes estimate   =     -22.76824315 Ry
+     estimated scf accuracy    <       0.00010137 Ry
+
+     iteration #  3     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.27E-06,  avg # of iterations =  1.0
+
+     total cpu time spent up to now is        3.4 secs
+
+     total energy              =     -22.76820293 Ry
+     Harris-Foulkes estimate   =     -22.76822000 Ry
+     estimated scf accuracy    <       0.00003851 Ry
+
+     iteration #  4     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  4.81E-07,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is        3.6 secs
+
+     total energy              =     -22.76820556 Ry
+     Harris-Foulkes estimate   =     -22.76820568 Ry
+     estimated scf accuracy    <       0.00000042 Ry
+
+     iteration #  5     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  5.30E-09,  avg # of iterations =  2.7
+
+     total cpu time spent up to now is        3.9 secs
+
+     total energy              =     -22.76820569 Ry
+     Harris-Foulkes estimate   =     -22.76820571 Ry
+     estimated scf accuracy    <       0.00000006 Ry
+
+     iteration #  6     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  7.50E-10,  avg # of iterations =  2.1
+
+     total cpu time spent up to now is        4.1 secs
+
+     total energy              =     -22.76820569 Ry
+     Harris-Foulkes estimate   =     -22.76820569 Ry
+     estimated scf accuracy    <          1.7E-09 Ry
+
+     iteration #  7     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.18E-11,  avg # of iterations =  2.7
+
+     total cpu time spent up to now is        4.4 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 (   459 PWs)   bands (ev):
+
+    -7.8912  14.2513  14.2513  14.2513  19.9832  19.9832  19.9832  28.6689
+
+          k =-0.2021 0.2021-0.2021 (   459 PWs)   bands (ev):
+
+    -6.7532   9.1791  12.8543  12.8543  21.7946  21.7946  22.3692  29.3573
+
+          k =-0.4043 0.4043-0.4043 (   443 PWs)   bands (ev):
+
+    -3.4659   2.4208  11.4950  11.4950  22.9168  22.9168  23.6360  30.3469
+
+          k = 0.0000 0.4043 0.0000 (   459 PWs)   bands (ev):
+
+    -6.3755  10.8494  10.8494  11.1273  19.1142  24.6781  24.6781  26.5904
+
+          k =-0.2021 0.6064-0.2021 (   452 PWs)   bands (ev):
+
+    -3.7920   5.1570   9.3775   9.6226  20.5346  25.8329  26.4838  26.7116
+
+          k = 0.6064-0.2021 0.6064 (   448 PWs)   bands (ev):
+
+    -1.2497   1.5975   7.6303  10.2172  21.7080  25.4822  26.9415  30.1060
+
+          k = 0.4043 0.0000 0.4043 (   449 PWs)   bands (ev):
+
+    -4.8893   7.0617   7.9657  12.1645  23.0314  23.1735  25.1799  28.6148
+
+          k = 0.0000 0.8086 0.0000 (   452 PWs)   bands (ev):
+
+    -1.9736   4.5810   8.0153   8.0153  18.5404  20.5997  30.6260  30.6260
+
+          k = 0.8086 0.0000 0.8086 (   442 PWs)   bands (ev):
+
+     1.2307   1.8060   5.0309   8.2731  19.7385  23.5470  30.0701  31.0430
+
+          k = 0.6064-0.2021 1.0107 (   450 PWs)   bands (ev):
+
+    -0.7016   3.8317   5.5356   7.5408  23.5103  24.3049  26.6406  30.0611
+
+     highest occupied, lowest unoccupied level (ev):    14.2513   18.5404
+
+!    total energy              =     -22.76820569 Ry
+     Harris-Foulkes estimate   =     -22.76820569 Ry
+     estimated scf accuracy    <          9.0E-12 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =       8.53138761 Ry
+     hartree contribution      =       1.88918303 Ry
+     xc contribution           =      -7.19861781 Ry
+     ewald contribution        =     -25.99015852 Ry
+
+     convergence has been achieved in   7 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =     0.00000000   -0.00000000    0.00000000
+     atom    2 type  1   force =    -0.00000000    0.00000000   -0.00000000
+
+     Total force =     0.000000     Total SCF correction =     0.000000
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=  103.47
+   0.00070339   0.00000000   0.00000000        103.47      0.00      0.00
+  -0.00000000   0.00070339  -0.00000000         -0.00    103.47     -0.00
+   0.00000000   0.00000000   0.00070339          0.00      0.00    103.47
+
+
+     number of scf cycles    =   2
+     number of bfgs steps    =   1
+
+     enthalpy old            =     -22.7685059946 Ry
+     enthalpy new            =     -22.7682056913 Ry
+
+     CASE: enthalpy_new > enthalpy_old
+
+     new trust radius        =       0.0070545561 bohr
+     new conv_thr            =            1.0E-10 Ry
+
+     new unit-cell volume =     74.38672 a.u.^3 (    11.02297 Ang^3 )
+     density =      3.61876 g/cm^3
+
+CELL_PARAMETERS (alat=  6.70342551)
+  -0.497956818  -0.000000000   0.497956818
+  -0.000000000   0.497956818   0.497956818
+  -0.497956818   0.497956818  -0.000000000
+
+ATOMIC_POSITIONS (crystal)
+C       -0.000000000   0.000000000  -0.000000000
+C        0.250000000   0.250000000   0.250000000
+
+
+
+     Writing output data file c.save
+     NEW-OLD atomic charge density approx. for the potential
+     extrapolated charge    8.15551, renormalised to    8.00000
+
+     total cpu time spent up to now is        4.4 secs
+
+     per-process dynamical memory:    21.2 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-06,  avg # of iterations =  3.8
+
+     total cpu time spent up to now is        4.7 secs
+
+     total energy              =     -22.76835707 Ry
+     Harris-Foulkes estimate   =     -22.87627906 Ry
+     estimated scf accuracy    <       0.00016721 Ry
+
+     iteration #  2     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.09E-06,  avg # of iterations =  3.4
+
+     total cpu time spent up to now is        5.1 secs
+
+     total energy              =     -22.76871054 Ry
+     Harris-Foulkes estimate   =     -22.76872096 Ry
+     estimated scf accuracy    <       0.00004277 Ry
+
+     iteration #  3     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  5.35E-07,  avg # of iterations =  1.0
+
+     total cpu time spent up to now is        5.2 secs
+
+     total energy              =     -22.76870339 Ry
+     Harris-Foulkes estimate   =     -22.76871116 Ry
+     estimated scf accuracy    <       0.00001723 Ry
+
+     iteration #  4     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.15E-07,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is        5.5 secs
+
+     total energy              =     -22.76870451 Ry
+     Harris-Foulkes estimate   =     -22.76870460 Ry
+     estimated scf accuracy    <       0.00000026 Ry
+
+     iteration #  5     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  3.20E-09,  avg # of iterations =  2.6
+
+     total cpu time spent up to now is        5.8 secs
+
+     total energy              =     -22.76870457 Ry
+     Harris-Foulkes estimate   =     -22.76870459 Ry
+     estimated scf accuracy    <       0.00000003 Ry
+
+     iteration #  6     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  3.98E-10,  avg # of iterations =  2.1
+
+     total cpu time spent up to now is        6.0 secs
+
+     total energy              =     -22.76870458 Ry
+     Harris-Foulkes estimate   =     -22.76870458 Ry
+     estimated scf accuracy    <          1.1E-09 Ry
+
+     iteration #  7     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.34E-11,  avg # of iterations =  2.4
+
+     total cpu time spent up to now is        6.3 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 (   459 PWs)   bands (ev):
+
+    -7.9866  13.8908  13.8908  13.8908  19.5676  19.5676  19.5676  27.8410
+
+          k =-0.2008 0.2008-0.2008 (   459 PWs)   bands (ev):
+
+    -6.8638   8.8884  12.5203  12.5203  21.3464  21.3464  21.8553  28.6238
+
+          k =-0.4016 0.4016-0.4016 (   443 PWs)   bands (ev):
+
+    -3.6272   2.2254  11.1831  11.1831  22.4692  22.4692  23.0110  29.7868
+
+          k = 0.0000 0.4016 0.0000 (   459 PWs)   bands (ev):
+
+    -6.4910  10.5556  10.5556  10.7749  18.6995  24.1683  24.1683  26.0253
+
+          k =-0.2008 0.6025-0.2008 (   452 PWs)   bands (ev):
+
+    -3.9443   4.9127   9.0809   9.3484  20.1031  25.3436  25.9526  26.1024
+
+          k = 0.6025-0.2008 0.6025 (   448 PWs)   bands (ev):
+
+    -1.4577   1.4235   7.3653   9.9306  21.2684  24.9780  26.3091  29.5009
+
+          k = 0.4016 0.0000 0.4016 (   449 PWs)   bands (ev):
+
+    -5.0258   6.7817   7.7147  11.8408  22.5637  22.6809  24.6466  27.9639
+
+          k = 0.0000 0.8033 0.0000 (   452 PWs)   bands (ev):
+
+    -2.1501   4.3081   7.7696   7.7696  18.1321  20.1849  29.9951  29.9951
+
+          k = 0.8033 0.0000 0.8033 (   442 PWs)   bands (ev):
+
+     0.9861   1.5777   4.8488   8.0221  19.3261  23.0721  29.4562  30.3721
+
+          k = 0.6025-0.2008 1.0041 (   450 PWs)   bands (ev):
+
+    -0.9043   3.5659   5.3306   7.3090  23.0311  23.8773  26.0169  29.4221
+
+     highest occupied, lowest unoccupied level (ev):    13.8908   18.1321
+
+!    total energy              =     -22.76870458 Ry
+     Harris-Foulkes estimate   =     -22.76870458 Ry
+     estimated scf accuracy    <          4.5E-12 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =       8.30945780 Ry
+     hartree contribution      =       1.90808950 Ry
+     xc contribution           =      -7.16589707 Ry
+     ewald contribution        =     -25.82035480 Ry
+
+     convergence has been achieved in   7 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =    -0.00000000   -0.00000000   -0.00000000
+     atom    2 type  1   force =     0.00000000    0.00000000    0.00000000
+
+     Total force =     0.000000     Total SCF correction =     0.000000
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=   -0.67
+  -0.00000453   0.00000000   0.00000000         -0.67      0.00      0.00
+   0.00000000  -0.00000453  -0.00000000          0.00     -0.67     -0.00
+   0.00000000  -0.00000000  -0.00000453          0.00     -0.00     -0.67
+
+
+     number of scf cycles    =   3
+     number of bfgs steps    =   1
+
+     enthalpy old            =     -22.7685059946 Ry
+     enthalpy new            =     -22.7687045765 Ry
+
+     CASE: enthalpy_new < enthalpy_old
+
+     small trust_radius: resetting bfgs history
+
+     new trust radius        =       0.0001000000 bohr
+     new conv_thr            =            1.0E-12 Ry
+
+     new unit-cell volume =     74.37378 a.u.^3 (    11.02106 Ang^3 )
+     density =      3.61939 g/cm^3
+
+CELL_PARAMETERS (alat=  6.70342551)
+  -0.497927950  -0.000000000   0.497927950
+  -0.000000000   0.497927950   0.497927950
+  -0.497927950   0.497927950  -0.000000000
+
+ATOMIC_POSITIONS (crystal)
+C       -0.000000000  -0.000000000   0.000000000
+C        0.250000000   0.250000000   0.250000000
+
+
+
+     Writing output data file c.save
+     NEW-OLD atomic charge density approx. for the potential
+     extrapolated charge    7.99861, renormalised to    8.00000
+
+     total cpu time spent up to now is        6.3 secs
+
+     per-process dynamical memory:    21.4 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-06,  avg # of iterations =  1.0
+
+     Threshold (ethr) on eigenvalues was too large:
+     Diagonalizing with lowered threshold
+
+     Davidson diagonalization with overlap
+     ethr =  1.88E-10,  avg # of iterations =  2.5
+
+     total cpu time spent up to now is        6.7 secs
+
+     total energy              =     -22.76870457 Ry
+     Harris-Foulkes estimate   =     -22.76774447 Ry
+     estimated scf accuracy    <       0.00000001 Ry
+
+     iteration #  2     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.77E-10,  avg # of iterations =  3.3
+
+     total cpu time spent up to now is        7.1 secs
+
+     total energy              =     -22.76870460 Ry
+     Harris-Foulkes estimate   =     -22.76870460 Ry
+     estimated scf accuracy    <          3.2E-09 Ry
+
+     iteration #  3     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  3.99E-11,  avg # of iterations =  1.0
+
+     total cpu time spent up to now is        7.3 secs
+
+     total energy              =     -22.76870460 Ry
+     Harris-Foulkes estimate   =     -22.76870460 Ry
+     estimated scf accuracy    <          1.3E-09 Ry
+
+     iteration #  4     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.56E-11,  avg # of iterations =  2.0
+
+     total cpu time spent up to now is        7.5 secs
+
+     total energy              =     -22.76870460 Ry
+     Harris-Foulkes estimate   =     -22.76870460 Ry
+     estimated scf accuracy    <          1.6E-11 Ry
+
+     iteration #  5     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  2.04E-13,  avg # of iterations =  2.6
+
+     total cpu time spent up to now is        7.9 secs
+
+     total energy              =     -22.76870460 Ry
+     Harris-Foulkes estimate   =     -22.76870460 Ry
+     estimated scf accuracy    <          2.4E-12 Ry
+
+     iteration #  6     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-13,  avg # of iterations =  1.1
+
+     total cpu time spent up to now is        8.0 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 (   459 PWs)   bands (ev):
+
+    -7.9857  13.8939  13.8939  13.8939  19.5712  19.5712  19.5712  27.8483
+
+          k =-0.2008 0.2008-0.2008 (   459 PWs)   bands (ev):
+
+    -6.8628   8.8910  12.5232  12.5232  21.3503  21.3503  21.8598  28.6303
+
+          k =-0.4017 0.4017-0.4017 (   443 PWs)   bands (ev):
+
+    -3.6257   2.2271  11.1858  11.1858  22.4731  22.4731  23.0165  29.7918
+
+          k = 0.0000 0.4017 0.0000 (   459 PWs)   bands (ev):
+
+    -6.4900  10.5582  10.5582  10.7780  18.7032  24.1727  24.1727  26.0304
+
+          k =-0.2008 0.6025-0.2008 (   452 PWs)   bands (ev):
+
+    -3.9430   4.9148   9.0835   9.3508  20.1069  25.3479  25.9572  26.1077
+
+          k = 0.6025-0.2008 0.6025 (   448 PWs)   bands (ev):
+
+    -1.4559   1.4250   7.3677   9.9331  21.2722  24.9824  26.3147  29.5062
+
+          k = 0.4017 0.0000 0.4017 (   449 PWs)   bands (ev):
+
+    -5.0246   6.7841   7.7169  11.8436  22.5678  22.6852  24.6513  27.9696
+
+          k = 0.0000 0.8033 0.0000 (   452 PWs)   bands (ev):
+
+    -2.1485   4.3105   7.7718   7.7718  18.1357  20.1886  30.0007  30.0007
+
+          k = 0.8033 0.0000 0.8033 (   442 PWs)   bands (ev):
+
+     0.9883   1.5797   4.8504   8.0243  19.3297  23.0763  29.4616  30.3780
+
+          k = 0.6025-0.2008 1.0042 (   450 PWs)   bands (ev):
+
+    -0.9025   3.5683   5.3324   7.3110  23.0353  23.8811  26.0224  29.4277
+
+     highest occupied, lowest unoccupied level (ev):    13.8939   18.1357
+
+!    total energy              =     -22.76870460 Ry
+     Harris-Foulkes estimate   =     -22.76870460 Ry
+     estimated scf accuracy    <          7.0E-14 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =       8.31141036 Ry
+     hartree contribution      =       1.90792207 Ry
+     xc contribution           =      -7.16618526 Ry
+     ewald contribution        =     -25.82185176 Ry
+
+     convergence has been achieved in   6 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =    -0.00000000    0.00000000   -0.00000000
+     atom    2 type  1   force =     0.00000000   -0.00000000    0.00000000
+
+     Total force =     0.000000     Total SCF correction =     0.000000
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=    0.23
+   0.00000154   0.00000000  -0.00000000          0.23      0.00     -0.00
+   0.00000000   0.00000154  -0.00000000          0.00      0.23     -0.00
+  -0.00000000   0.00000000   0.00000154         -0.00      0.00      0.23
+
+
+     bfgs converged in   4 scf cycles and   2 bfgs steps
+     (criteria: energy <  1.0E-04 Ry, force <  1.0E-03Ry/Bohr, cell <  5.0E-01kbar)
+
+     End of BFGS Geometry Optimization
+
+     Final enthalpy =     -22.7687045959 Ry
+Begin final coordinates
+     new unit-cell volume =     74.37378 a.u.^3 (    11.02106 Ang^3 )
+     density =      3.61939 g/cm^3
+
+CELL_PARAMETERS (alat=  6.70342551)
+  -0.497927950  -0.000000000   0.497927950
+  -0.000000000   0.497927950   0.497927950
+  -0.497927950   0.497927950  -0.000000000
+
+ATOMIC_POSITIONS (crystal)
+C       -0.000000000  -0.000000000   0.000000000
+C        0.250000000   0.250000000   0.250000000
+End final coordinates
+
+
+
+     A final scf calculation at the relaxed structure.
+     The G-vectors are recalculated for the final unit cell
+     Results may differ from those at the preceding step.
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           3       3      1                   41       41       7
+     Max           4       4      2                   47       47      11
+     Sum         313     313    109                 3527     3527     701
+ 
+
+
+     bravais-lattice index     =            2
+     lattice parameter (alat)  =       6.7034  a.u.
+     unit-cell volume          =      74.3738 (a.u.)^3
+     number of atoms/cell      =            2
+     number of atomic types    =            1
+     number of electrons       =         8.00
+     number of Kohn-Sham states=            8
+     kinetic-energy cutoff     =      50.0000  Ry
+     charge density cutoff     =     200.0000  Ry
+     convergence threshold     =      1.0E-12
+     mixing beta               =       0.7000
+     number of iterations used =            8  local-TF  mixing
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+
+     celldm(1)=   6.703426  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (  -0.497928  -0.000000   0.497928 )  
+               a(2) = (  -0.000000   0.497928   0.497928 )  
+               a(3) = (  -0.497928   0.497928  -0.000000 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = ( -1.004161 -1.004161  1.004161 )  
+               b(2) = (  1.004161  1.004161  1.004161 )  
+               b(3) = ( -1.004161  1.004161 -1.004161 )  
+
+
+     PseudoPot. # 1 for C  read from file:
+     ~/PseudoPotential/upf/C_ONCV_PBE-1.0.upf
+     MD5 check sum: Not computed, couldn't open file
+     Pseudo is Norm-conserving, Zval =  4.0
+     Generated using ONCVPSP code by D. R. Hamann
+     Using radial grid of  602 points,  4 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+
+     atomic species   valence    mass     pseudopotential
+        C              4.00    12.01100     C ( 1.00)
+
+     48 Sym. Ops., with inversion, found (24 have fractional translation)
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           C   tau(   1) = (  -0.0000000   0.0000000  -0.0000000  )
+         2           C   tau(   2) = (  -0.2489640   0.2489640   0.2489640  )
+
+     number of k points=    10
+                       cart. coord. in units 2pi/alat
+        k(    1) = (   0.0000000   0.0000000   0.0000000), wk =   0.0160000
+        k(    2) = (  -0.2008323   0.2008323  -0.2008323), wk =   0.1280000
+        k(    3) = (  -0.4016645   0.4016645  -0.4016645), wk =   0.1280000
+        k(    4) = (   0.0000000   0.4016645   0.0000000), wk =   0.0960000
+        k(    5) = (  -0.2008323   0.6024968  -0.2008323), wk =   0.3840000
+        k(    6) = (   0.6024968  -0.2008323   0.6024968), wk =   0.3840000
+        k(    7) = (   0.4016645   0.0000000   0.4016645), wk =   0.1920000
+        k(    8) = (   0.0000000   0.8033291   0.0000000), wk =   0.0960000
+        k(    9) = (   0.8033291   0.0000000   0.8033291), wk =   0.1920000
+        k(   10) = (   0.6024968  -0.2008323   1.0041613), wk =   0.3840000
+
+     Dense  grid:     3527 G-vectors     FFT dimensions: (  24,  24,  24)
+
+     Estimated max dynamical RAM per process >       0.12MB
+
+     Estimated total allocated dynamical RAM >       9.69MB
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+     Message from routine sym_rho_init:
+     some processors have no G-vectors for symmetrization
+
+     Initial potential from superposition of free atoms
+
+     starting charge    7.98607, renormalised to    8.00000
+     Starting wfc are random
+
+     Writing output data file c.save
+
+     total cpu time spent up to now is        8.2 secs
+
+     per-process dynamical memory:    21.7 Mb
+
+     Self-consistent Calculation
+
+     iteration #  1     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-06,  avg # of iterations = 11.2
+
+     total cpu time spent up to now is        9.4 secs
+
+     total energy              =     -22.77325294 Ry
+     Harris-Foulkes estimate   =     -22.81331801 Ry
+     estimated scf accuracy    <       0.12270143 Ry
+
+     iteration #  2     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.53E-03,  avg # of iterations =  1.1
+
+     total cpu time spent up to now is        9.6 secs
+
+     total energy              =     -22.76507084 Ry
+     Harris-Foulkes estimate   =     -22.77625445 Ry
+     estimated scf accuracy    <       0.02653880 Ry
+
+     iteration #  3     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  3.32E-04,  avg # of iterations =  2.1
+
+     total cpu time spent up to now is        9.9 secs
+
+     total energy              =     -22.76767996 Ry
+     Harris-Foulkes estimate   =     -22.76750323 Ry
+     estimated scf accuracy    <       0.00013063 Ry
+
+     iteration #  4     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.63E-06,  avg # of iterations =  2.9
+
+     total cpu time spent up to now is       10.2 secs
+
+     total energy              =     -22.76774838 Ry
+     Harris-Foulkes estimate   =     -22.76774950 Ry
+     estimated scf accuracy    <       0.00000844 Ry
+
+     iteration #  5     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.05E-07,  avg # of iterations =  2.1
+
+     total cpu time spent up to now is       10.5 secs
+
+     total energy              =     -22.76774934 Ry
+     Harris-Foulkes estimate   =     -22.76774935 Ry
+     estimated scf accuracy    <       0.00000072 Ry
+
+     iteration #  6     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  8.98E-09,  avg # of iterations =  2.2
+
+     total cpu time spent up to now is       10.9 secs
+
+     total energy              =     -22.76774943 Ry
+     Harris-Foulkes estimate   =     -22.76774943 Ry
+     estimated scf accuracy    <       0.00000001 Ry
+
+     iteration #  7     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.62E-10,  avg # of iterations =  2.4
+
+     total cpu time spent up to now is       11.2 secs
+
+     total energy              =     -22.76774943 Ry
+     Harris-Foulkes estimate   =     -22.76774943 Ry
+     estimated scf accuracy    <          5.8E-10 Ry
+
+     iteration #  8     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  7.28E-12,  avg # of iterations =  2.9
+
+     total cpu time spent up to now is       11.6 secs
+
+     total energy              =     -22.76774943 Ry
+     Harris-Foulkes estimate   =     -22.76774943 Ry
+     estimated scf accuracy    <          3.8E-12 Ry
+
+     iteration #  9     ecut=    50.00 Ry     beta=0.70
+     Davidson diagonalization with overlap
+     ethr =  1.00E-13,  avg # of iterations =  2.2
+
+     total cpu time spent up to now is       11.9 secs
+
+     End of self-consistent calculation
+
+          k = 0.0000 0.0000 0.0000 (   459 PWs)   bands (ev):
+
+    -7.9861  13.8930  13.8930  13.8930  19.5705  19.5705  19.5705  27.8473
+
+          k =-0.2008 0.2008-0.2008 (   459 PWs)   bands (ev):
+
+    -6.8632   8.8903  12.5224  12.5224  21.3496  21.3496  21.8591  28.6293
+
+          k =-0.4017 0.4017-0.4017 (   431 PWs)   bands (ev):
+
+    -3.6260   2.2269  11.1883  11.1883  22.4922  22.4922  23.0160  29.7913
+
+          k = 0.0000 0.4017 0.0000 (   443 PWs)   bands (ev):
+
+    -6.4899  10.5652  10.5652  10.7838  18.7096  24.1876  24.1876  26.0323
+
+          k =-0.2008 0.6025-0.2008 (   444 PWs)   bands (ev):
+
+    -3.9429   4.9143   9.0857   9.3565  20.1074  25.3497  25.9564  26.1255
+
+          k = 0.6025-0.2008 0.6025 (   440 PWs)   bands (ev):
+
+    -1.4562   1.4255   7.3699   9.9346  21.2766  24.9883  26.3170  29.5156
+
+          k = 0.4017 0.0000 0.4017 (   449 PWs)   bands (ev):
+
+    -5.0250   6.7835   7.7163  11.8428  22.5670  22.6846  24.6505  27.9689
+
+          k = 0.0000 0.8033 0.0000 (   452 PWs)   bands (ev):
+
+    -2.1490   4.3099   7.7711   7.7711  18.1354  20.1884  29.9996  29.9996
+
+          k = 0.8033 0.0000 0.8033 (   434 PWs)   bands (ev):
+
+     0.9886   1.5793   4.8505   8.0356  19.3296  23.0771  29.4606  30.3955
+
+          k = 0.6025-0.2008 1.0042 (   446 PWs)   bands (ev):
+
+    -0.9030   3.5690   5.3325   7.3114  23.0385  23.8811  26.0268  29.4293
+
+     highest occupied, lowest unoccupied level (ev):    13.8930   18.1354
+
+!    total energy              =     -22.76774943 Ry
+     Harris-Foulkes estimate   =     -22.76774943 Ry
+     estimated scf accuracy    <          2.0E-13 Ry
+
+     The total energy is the sum of the following terms:
+
+     one-electron contribution =       8.31271808 Ry
+     hartree contribution      =       1.90754509 Ry
+     xc contribution           =      -7.16616082 Ry
+     ewald contribution        =     -25.82185178 Ry
+
+     convergence has been achieved in   9 iterations
+
+     Forces acting on atoms (cartesian axes, Ry/au):
+
+     atom    1 type  1   force =    -0.00000000   -0.00000000    0.00000000
+     atom    2 type  1   force =     0.00000000    0.00000000   -0.00000000
+
+     Total force =     0.000000     Total SCF correction =     0.000000
+
+
+     Computing stress (Cartesian axis) and pressure
+
+          total   stress  (Ry/bohr**3)                   (kbar)     P=   -5.51
+  -0.00003745  -0.00000000  -0.00000000         -5.51     -0.00     -0.00
+  -0.00000000  -0.00003745   0.00000000         -0.00     -5.51      0.00
+  -0.00000000   0.00000000  -0.00003745         -0.00      0.00     -5.51
+
+
+     Writing output data file c.save
+ 
+     init_run     :      0.18s CPU      0.21s WALL (       2 calls)
+     electrons    :     11.31s CPU     11.46s WALL (       5 calls)
+     update_pot   :      0.01s CPU      0.01s WALL (       3 calls)
+     forces       :      0.02s CPU      0.02s WALL (       5 calls)
+     stress       :      0.02s CPU      0.02s WALL (       5 calls)
+
+     Called by init_run:
+     wfcinit      :      0.17s CPU      0.18s WALL (       2 calls)
+     potinit      :      0.00s CPU      0.00s WALL (       2 calls)
+
+     Called by electrons:
+     c_bands      :     10.94s CPU     11.05s WALL (      39 calls)
+     sum_band     :      0.21s CPU      0.23s WALL (      39 calls)
+     v_of_rho     :      0.03s CPU      0.04s WALL (      43 calls)
+     mix_rho      :      0.10s CPU      0.10s WALL (      39 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.01s CPU      0.01s WALL (     900 calls)
+     cegterg      :     10.89s CPU     10.99s WALL (     390 calls)
+
+     Called by sum_band:
+
+     Called by *egterg:
+     h_psi        :      1.17s CPU      1.20s WALL (    1488 calls)
+     g_psi        :      0.00s CPU      0.00s WALL (    1078 calls)
+     cdiaghg      :      5.35s CPU      5.39s WALL (    1428 calls)
+
+     Called by h_psi:
+     h_psi:pot    :      1.17s CPU      1.20s WALL (    1488 calls)
+     h_psi:calbec :      0.09s CPU      0.09s WALL (    1488 calls)
+     vloc_psi     :      1.06s CPU      1.09s WALL (    1488 calls)
+     add_vuspsi   :      0.01s CPU      0.01s WALL (    1488 calls)
+
+     General routines
+     calbec       :      0.11s CPU      0.11s WALL (    1738 calls)
+     fft          :      0.03s CPU      0.03s WALL (     513 calls)
+     ffts         :      0.03s CPU      0.03s WALL (     495 calls)
+     fftw         :      1.19s CPU      1.22s WALL (   22144 calls)
+ 
+     Parallel routines
+     fft_scatter  :      1.13s CPU      1.15s WALL (   23152 calls)
+ 
+     PWSCF        :    12.01s CPU        12.71s WALL
+
+ 
+   This run was terminated on:  10:12:39  29Jan2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

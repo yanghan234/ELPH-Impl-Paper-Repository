@@ -1,0 +1,30 @@
+#!/bin/bash
+#SBATCH --job-name=b2-4-50s
+#SBATCH --output=test_sbatch.out
+#SBATCH --error=test_sbatch.err
+#SBATCH --time=36:00:00
+#SBATCH --account=pi-gagalli
+#SBATCH --partition=gm4-pmext
+#SBATCH --qos=gm4-cpu
+#SBATCH --nodes=4
+#SBATCH --mail-user=yanghan@uchicago.edu
+#SBATCH --mail-type=ALL
+#SBATCH --ntasks-per-node=40
+##SBATCH --constraint=e5-2680v2
+
+# LOAD MODULE ENVIRONMENT
+#module load  espresso/6.0-west-2.0+intelmpi-5.1+intel-16.0
+#
+module unload intelmpi intel mkl Anaconda3
+module load intelmpi/5.1+intel-16.0 mkl fftw3/3.3.5+intelmpi-5.1+intel-16.0
+# RUN JOB BELOW
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < relax-nospin.in >& relax-nospin.out
+# mpirun -np 160 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wstat.x -nimage 4 -i wstat.in >& wstat.out
+# mpirun -np 160 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wfreq.x -nimage 4 -i wfreq.in >& wfreq.out
+# cp o-* c.wfreq.save
+
+mv b.welph.save.pdep1000 b.welph.save
+mpirun -np 160 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 4 -i welph1000.XP.in >& welph1000.XP.out
+mpirun -np 160 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 4 -i welph1000.S.in >&  welph1000.S.out
+mv b.welph.save b.welph.save.pdep1000
+

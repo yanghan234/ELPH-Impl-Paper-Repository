@@ -1,0 +1,4 @@
+N,N3,invN3,HostAdiPBE,HostAdiGW,HostNadPBE,HostNadGW,DefectAdiPBE,DefectAdiGW,DefectNadPBE,DefectNadGW
+3,    27,  0.03703703704,   -322,    -339,    -459,    -473,    22,  33,  185, 192
+4,    64,  0.015625     ,   -394,    -415,    -431,    -452,    3 ,  12,  156, 161
+5,   125,  0.008        ,   -333,    -346,    -345,    -359,    1 ,  9 ,  149, 153

@@ -1,0 +1,297 @@
+
+     Program WELPH v. 3.1.1 starts on 25Jan2021 at 23:31:41 
+
+     This program is part of the open-source West suite
+     for massively parallel calculations of excited states in materials; please cite
+         "M. Govoni et al., J. Chem. Theory Comput. 11, 2680 (2015);
+          URL http://www.west-code.org", 
+     in publications or presentations arising from this work.
+
+     Based on the Quantum ESPRESSO v. 6.1 svn rev. 13369
+
+     I/O is Little Endian
+       
+     --------------------------------------------------------------------------------------------
+     **MPI** Parallelization Status                                      
+     --------------------------------------------------------------------------------------------
+                    80                   4             1             1            20
+     --------------------------------------------------------------------------------------------
+                     N         =         I      X      P      X      B      X      Z
+                     ^                   ^             ^             ^             ^
+                     |                   |             |             |             |
+                   #rnk                  |             |             |             |
+                                      #image           |             |             |
+                                                     #pool           |             |
+                                                                   #bgrp           |
+                                                                                 #R&G
+     --------------------------------------------------------------------------------------------
+     **OPENMP** Parallelization Status
+     #thr/rnk               =            1
+     --------------------------------------------------------------------------------------------
+     #prc = (rnk) * (thr) =           80
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     I/O Summary : input_west                                            
+     --------------------------------------------------------------------------------------------
+     qe_prefix      = n2
+     west_prefix    = n2
+     outdir         = ./
+     --------------------------------------------------------------------------------------------
+
+     Reading data from directory:
+     ./n2.save
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+     Message from routine readpp:
+     file ./n2.save/C_ONCV_PBE-1.0.upf not found
+     Message from routine readpp:
+     file ./n2.save/N_ONCV_PBE-1.0.upf not found
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min         246     246     61                11406    11406    1427
+     Max         247     247     62                11409    11409    1429
+     Sum        4935    4935   1237               228153   228153   28571
+ 
+       
+     --------------------------------------------------------------------------------------------
+     I/O Summary : wstat_control                                         
+     --------------------------------------------------------------------------------------------
+     wstat_calculation              =              S
+     n_pdep_eigen                   =           1000
+     n_pdep_times                   =              4
+     n_pdep_maxiter                 =            100
+     n_dfpt_maxiter                 =            250
+     n_pdep_read_from_file          =              0
+     trev_pdep                      =   1.000000E-03
+     trev_pdep_rel                  =   1.000000E-01
+     tr2_dfpt                       =   1.000000E-12
+     l_kinetic_only                 =              F
+     l_minimize_exx_if_active       =              F
+     l_use_ecutrho                  =              F
+     l_use_symm                     =              F
+     nq(1)                          =              1
+     nq(2)                          =              1
+     nq(3)                          =              1
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     I/O Summary : wfreq_control                                         
+     --------------------------------------------------------------------------------------------
+     wfreq_calculation                        =           XWGQ
+     n_pdep_eigen_to_use                      =           1000
+     qp_bandrange(1)                          =              1
+     qp_bandrange(2)                          =              2
+     macropol_calculation                     =              C
+     n_lanczos                                =             30
+     n_imfreq                                 =            128
+     n_refreq                                 =            272
+     ecut_imfreq [Ry]                         =     200.000000
+     ecut_refreq [Ry]                         =       2.000000
+     wfreq_eta [Ry]                           =       0.003675
+     n_secant_maxiter                         =             21
+     trev_secant [Ry]                         =       0.003675
+     l_enable_lanczos                         =              T
+     l_enable_gwetot                          =              F
+     o_restart_time [min]                     =       0.000000
+     ecut_spectralf(1) [Ry]                   =      -2.000000
+     ecut_spectralf(2) [Ry]                   =       2.000000
+     n_spectralf                              =             10
+     l_read_common_pdep                       =              F
+     l_enable_gb_curvature                    =              T
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     I/O Summary : welph_control                                         
+     --------------------------------------------------------------------------------------------
+     welph_calculation                        =              S
+     welph_n_pdep_eigen_to_use                =           1000
+     asr                                      =              1
+     welph_band_range(1)                      =            240
+     welph_band_range(2)                      =            280
+     do_scr                                   =              T
+     do_fxc                                   =              T
+     welph_read_common_pdep                   =              T
+     loto                                     =              T
+     lsym                                     =              F
+     l_adiabatic                              =              T
+     l_enabel_gw                              =              T
+     q_direction(1)                           =       1.000000
+     q_direction(2)                           =       0.000000
+     q_direction(3)                           =       0.000000
+     welph_eta                                =       0.100000
+     temperature                              =       0.000000
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     System Overview                                                     
+     --------------------------------------------------------------------------------------------
+     gamma_only           =              F
+     ecutwfc [Ry]         =      50.000000
+     ecutrho [Ry]         =     200.000000
+     omega [au^3]         =   4.772322E+03
+     nbnd                 =            300
+     nkstot               =              1
+     nspin                =              1
+     nelec                =     514.000000
+     npol                 =              1
+     lsda                 =              F
+     noncolin             =              F
+     lspinorb             =              F
+     domag                =              F
+     --------------------------------------------------------------------------------------------
+
+     3DFFT grid
+        s : (  90,  90,  90)
+        p : (  90,  90,  90)
+
+     Direct Lattice Cell [a.u.]
+        a1 = (   -13.3897865     0.0537137    13.3897865)
+        a2 = (    -0.0537138    13.3897865    13.3897865)
+        a3 = (   -13.3897865    13.3897865     0.0537137)
+
+     Reciprocal Lattice Cell [a.u.]
+        b1 = (    -0.2350995    -0.2360426     0.2350995)
+        b2 = (     0.2360426     0.2350995     0.2350995)
+        b3 = (    -0.2350995     0.2350995    -0.2360426)
+      
+
+     Brillouin Zone sampling [cryst. coord.]
+ 
+        k(000001) = (     0.0000000     0.0000000     0.0000000)
+ 
+        q(000001) = (     0.0000000     0.0000000     0.0000000)
+       
+     --------------------------------------------------------------------------------------------
+     Parallelization for npdep                                           
+     --------------------------------------------------------------------------------------------
+     nglob                =           1000
+     nlevel               =              4
+     Min nglob/nlevel     =            250
+     Max nglob/nlevel     =            250
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     Parallelization for npdep+macro                                     
+     --------------------------------------------------------------------------------------------
+     nglob                =           1003
+     nlevel               =              4
+     Min nglob/nlevel     =            250
+     Max nglob/nlevel     =            251
+     --------------------------------------------------------------------------------------------
+     ===========================================================================
+     Symmetries disabled, nq =    1
+          Q-point IBZ [ cart coord ]
+          xq(00000001) = (  0.000000  0.000000  0.000000) wq =   1.000000
+     ===========================================================================
+     -------------------------------
+     | Electron-Phonon Self-energy |
+     -------------------------------
+     Message from routine kpoint_grid:
+     ATTENTION: skip check of k-points equivalence
+     ===========================================================================
+          nsym   =    6
+          nrot   =   12
+          nk_ibz =    1
+          Q-point IBZ [ cart  coord ]
+          xk(00000001) = (  0.000000  0.000000  0.000000) wk =   1.000000
+          Q-point IBZ [ cryst coord ]
+          xk(00000001) = (  0.000000  0.000000  0.000000) wk =   1.000000
+     ===========================================================================
+       
+     --------------------------------------------------------------------------------------------
+     Computing Debye-Waller Self-energy (occ)                            
+     --------------------------------------------------------------------------------------------
+     in progress... |#                   | 005% :           03m-41.9s (E)       01h-13m-59.2s (X)
+     in progress... |##                  | 010% :           06m-07.1s (E)       01h-01m-11.9s (X)
+     in progress... |###                 | 015% :           08m-33.2s (E)           57m-01.3s (X)
+     in progress... |####                | 020% :           10m-59.2s (E)           54m-56.3s (X)
+     in progress... |#####               | 025% :           13m-25.3s (E)           53m-41.4s (X)
+     in progress... |######              | 030% :           15m-56.3s (E)           53m-07.9s (X)
+     in progress... |#######             | 035% :           18m-20.9s (E)           52m-25.6s (X)
+     in progress... |########            | 040% :           20m-45.5s (E)           51m-53.9s (X)
+     in progress... |#########           | 045% :           23m-10.8s (E)           51m-30.8s (X)
+     in progress... |##########          | 050% :           25m-34.6s (E)           51m-09.3s (X)
+     in progress... |###########         | 055% :           27m-59.2s (E)           50m-53.2s (X)
+     in progress... |############        | 060% :           30m-23.8s (E)           50m-39.6s (X)
+     in progress... |#############       | 065% :           32m-48.3s (E)           50m-28.1s (X)
+     in progress... |##############      | 070% :           35m-13.7s (E)           50m-19.5s (X)
+     in progress... |###############     | 075% :           37m-38.3s (E)           50m-11.1s (X)
+     in progress... |################    | 080% :           40m-08.0s (E)           50m-10.0s (X)
+     in progress... |#################   | 085% :           42m-38.4s (E)           50m-09.9s (X)
+     in progress... |##################  | 090% :           45m-02.3s (E)           50m-02.5s (X)
+     in progress... |################### | 095% :           47m-31.7s (E)           50m-01.8s (X)
+     in progress... |####################| 100% :           49m-56.3s (E)           49m-56.3s (X)
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     Computing Debye-Waller Self-energy (Lanczos)                        
+     --------------------------------------------------------------------------------------------
+     in progress... |####################| 100% :           39m-47.1s (E)           39m-47.1s (X)
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     Compute Fan-Migdal Self-energy (occ)                                
+     --------------------------------------------------------------------------------------------
+     in progress... |####################| 100% :           06m-05.5s (E)           06m-05.5s (X)
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     Compute Fan-Migdal Self-energy (Lanczos)                            
+     --------------------------------------------------------------------------------------------
+     in progress... |####################| 100% :           12m-46.2s (E)           12m-46.2s (X)
+     --------------------------------------------------------------------------------------------
+     WELPH        :     1h43m CPU        1h54m WALL
+
+     welph_readin :      2.92s CPU      5.63s WALL (       1 calls)
+     fetch_input  :      0.00s CPU      0.01s WALL (       2 calls)
+     read_xml     :      0.44s CPU      0.55s WALL (       1 calls)
+     init_vloc    :      0.20s CPU      0.20s WALL (       2 calls)
+     fft          :      0.02s CPU      0.02s WALL (      14 calls)
+     fft_scatter  :    123.06s CPU    124.42s WALL ( 1218278 calls)
+     v_of_rho     :      0.03s CPU      0.03s WALL (       1 calls)
+     v_xc         :      0.02s CPU      0.02s WALL (       1 calls)
+     v_h          :      0.00s CPU      0.00s WALL (       1 calls)
+     read_wave    :      2.47s CPU      3.58s WALL (       1 calls)
+     davcio       :      0.88s CPU      5.69s WALL (     196 calls)
+     init_us_1    :      0.00s CPU      0.01s WALL (       2 calls)
+     do_setup     :      0.19s CPU      0.22s WALL (       1 calls)
+     init_pw_ar   :      0.19s CPU      0.21s WALL (       1 calls)
+     init_at_1    :      0.00s CPU      0.00s WALL (       1 calls)
+     setup_dmuxc  :      0.01s CPU      0.01s WALL (       1 calls)
+     ffts         :      4.48s CPU      4.52s WALL (     288 calls)
+     scatter_grid :      0.19s CPU      0.22s WALL (     288 calls)
+     init_us_2    :      4.29s CPU      4.35s WALL (     388 calls)
+     fftw         :    623.58s CPU    630.06s WALL ( 1217976 calls)
+     calbec       :    660.89s CPU    663.07s WALL (    5616 calls)
+     computeDW1   :   2990.09s CPU   2996.32s WALL (       1 calls)
+     computeDW2   :   2365.11s CPU   2387.14s WALL (       1 calls)
+     alphapc      :    227.33s CPU    228.11s WALL (    4216 calls)
+     lan_H        :   1847.40s CPU   1859.71s WALL (     136 calls)
+     h_psi_bgrp   :   1427.20s CPU   1436.63s WALL (    4080 calls)
+     h_psi        :   1427.17s CPU   1436.62s WALL (    4080 calls)
+     h_psi:pot    :   1416.96s CPU   1426.31s WALL (    4080 calls)
+     vloc_psi     :    656.97s CPU    663.84s WALL (    4080 calls)
+     h_psi:calbec :    382.14s CPU    383.48s WALL (    4080 calls)
+     add_vuspsi   :    377.78s CPU    378.96s WALL (    4080 calls)
+     computeFM1   :    156.00s CPU    365.51s WALL (       1 calls)
+     computeFM2   :    556.21s CPU    766.22s WALL (       1 calls)
+ 
+     WELPH        :     1h43m CPU        1h54m WALL
+
+ 
+   This run was terminated on:   1:26:33  26Jan2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name=n2-5-50
+#SBATCH --output=test_sbatch.out
+#SBATCH --error=test_sbatch.err
+#SBATCH --time=02:00:00
+#SBATCH --account=pi-gagalli
+#SBATCH --partition=gagalli-brdwl
+#SBATCH --qos=gagalli-debug
+#SBATCH --nodes=4
+#SBATCH --mail-user=yanghan@uchicago.edu
+#SBATCH --mail-type=ALL
+#SBATCH --ntasks-per-node=20
+##SBATCH --constraint=e5-2680v2
+
+# LOAD MODULE ENVIRONMENT
+#module load  espresso/6.0-west-2.0+intelmpi-5.1+intel-16.0
+#
+module unload intelmpi intel mkl Anaconda3
+module load intelmpi/5.1+intel-16.0 mkl fftw3/3.3.5+intelmpi-5.1+intel-16.0
+# RUN JOB BELOW
+mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < relax-nospin.in >& relax-nospin.out
+mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pp.x < pp.in >& pp.out

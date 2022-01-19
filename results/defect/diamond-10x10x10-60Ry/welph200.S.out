@@ -1,0 +1,2824 @@
+
+     Program WELPH v. 3.1.1 starts on 12Jun2021 at  1:37:54 
+
+     This program is part of the open-source West suite
+     for massively parallel calculations of excited states in materials; please cite
+         "M. Govoni et al., J. Chem. Theory Comput. 11, 2680 (2015);
+          URL http://www.west-code.org", 
+     in publications or presentations arising from this work.
+
+     Based on the Quantum ESPRESSO v. 6.1 svn rev. 13369
+
+     I/O is Little Endian
+       
+     --------------------------------------------------------------------------------------------
+     **MPI** Parallelization Status                                      
+     --------------------------------------------------------------------------------------------
+                   400                   2             1             1           200
+     --------------------------------------------------------------------------------------------
+                     N         =         I      X      P      X      B      X      Z
+                     ^                   ^             ^             ^             ^
+                     |                   |             |             |             |
+                   #rnk                  |             |             |             |
+                                      #image           |             |             |
+                                                     #pool           |             |
+                                                                   #bgrp           |
+                                                                                 #R&G
+     --------------------------------------------------------------------------------------------
+     **OPENMP** Parallelization Status
+     #thr/rnk               =            1
+     --------------------------------------------------------------------------------------------
+     #prc = (rnk) * (thr) =          400
+     --------------------------------------------------------------------------------------------
+       
+     --------------------------------------------------------------------------------------------
+     I/O Summary : input_west                                            
+     --------------------------------------------------------------------------------------------
+     qe_prefix      = c
+     west_prefix    = c
+     outdir         = ./
+     --------------------------------------------------------------------------------------------
+
+     Reading data from directory:
+     ./c.save
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 362
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 384
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 382
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 375
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 386
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 397
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 374
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 394
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 360
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 365
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F9ADF798630  Unknown               Unknown  Unknown
+libpthread.so.0    00007F9ADF7976FD  Unknown               Unknown  Unknown
+welph.x            0000000000AC97E7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA3CB  Unknown               Unknown  Unknown
+welph.x            0000000000B00E4D  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB450  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F9ADDC1B545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F1FD6AB8630  Unknown               Unknown  Unknown
+libpthread.so.0    00007F1FD6AB76FD  Unknown               Unknown  Unknown
+welph.x            0000000000AC97E7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA3CB  Unknown               Unknown  Unknown
+welph.x            0000000000B00E4D  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB391  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F1FD4F3B545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F49AFEFE630  Unknown               Unknown  Unknown
+libc.so.6          00007F49AE4565B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F49AE381545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F6FC85CE630  Unknown               Unknown  Unknown
+libiomp5.so        00007F6FC6EB491B  Unknown               Unknown  Unknown
+libiomp5.so        00007F6FC6EB4992  Unknown               Unknown  Unknown
+libiomp5.so        00007F6FC6EADB63  Unknown               Unknown  Unknown
+libiomp5.so        00007F6FC6EAD8DD  Unknown               Unknown  Unknown
+libiomp5.so        00007F6FC6E75A84  Unknown               Unknown  Unknown
+ld-linux-x86-64.s  00007F6FCE556078  Unknown               Unknown  Unknown
+libc.so.6          00007F6FC6A68CD9  Unknown               Unknown  Unknown
+libc.so.6          00007F6FC6A68D27  Unknown               Unknown  Unknown
+libmpi.so.12       00007F6FC7338EC6  Unknown               Unknown  Unknown
+libmpi.so.12       00007F6FC73F4143  Unknown               Unknown  Unknown
+libmpi.so.12       00007F6FC71EB320  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F6FC796311D  Unknown               Unknown  Unknown
+welph.x            0000000000828FD5  Unknown               Unknown  Unknown
+welph.x            00000000007CB489  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F6FC6A51545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FACB85ED630  Unknown               Unknown  Unknown
+libpthread.so.0    00007FACB85ECEFD  Unknown               Unknown  Unknown
+welph.x            0000000000B3066B  Unknown               Unknown  Unknown
+welph.x            0000000000AC3399  Unknown               Unknown  Unknown
+welph.x            00000000007CB326  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FACB6A70545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F0BBE7ED630  Unknown               Unknown  Unknown
+libc.so.6          00007F0BBCD455B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F0BBCC70545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FAC13FA6630  Unknown               Unknown  Unknown
+libpthread.so.0    00007FAC13FA5EFD  Unknown               Unknown  Unknown
+welph.x            0000000000B3066B  Unknown               Unknown  Unknown
+welph.x            0000000000AC3399  Unknown               Unknown  Unknown
+welph.x            00000000007CB326  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FAC12429545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F3A3B9A1630  Unknown               Unknown  Unknown
+libc.so.6          00007F3A39EF95B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F3A39E24545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F666F064630  Unknown               Unknown  Unknown
+libc.so.6          00007F666D5BC5B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F666D4E7545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F52152B1630  Unknown               Unknown  Unknown
+libc.so.6          00007F52138095B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F5213734545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F0289E50630  Unknown               Unknown  Unknown
+libc.so.6          00007F02883A85B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F02882D3545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FDA79C7E630  Unknown               Unknown  Unknown
+libc.so.6          00007FDA781D65B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FDA78101545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+     Message from routine readpp:
+     file ./c.save/C_ONCV_PBE-1.0.upf not found
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F948AC0F630  Unknown               Unknown  Unknown
+libc.so.6          00007F94891675B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F9489092545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min           1       1      0                   18       18       0
+     Max           2       2      1                   26       26      11
+     Sum         367     367    121                 4645     4645     941
+ 
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     Error in routine n_plane_waves (1):
+     No plane waves found: running on too many processors?
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+     stopping ...
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FD47A458630  Unknown               Unknown  Unknown
+libc.so.6          00007FD4789B05B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FD4788DB545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FF2E2724630  Unknown               Unknown  Unknown
+libc.so.6          00007FF2E0C7C5B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FF2E0BA7545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FD2E85EC630  Unknown               Unknown  Unknown
+libc.so.6          00007FD2E6B445B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FD2E6A6F545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FAAD4BF3630  Unknown               Unknown  Unknown
+libc.so.6          00007FAAD314B5B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FAAD3076545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+application called MPI_Abort(MPI_COMM_WORLD, 1) - process 315
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FB7AA735630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB7A93C0BF7  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB7A94CCE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB7A94CCB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB7A93A62F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB7A93A5D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB7A93A5BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB7A93A5B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB7A93A7932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FB7A9ACCB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FB7A8BB8545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F8BEA055630  Unknown               Unknown  Unknown
+libc.so.6          00007F8BE85AD5B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F8BE84D8545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007EFD82B9A630  Unknown               Unknown  Unknown
+libpthread.so.0    00007EFD82B996FD  Unknown               Unknown  Unknown
+welph.x            0000000000AC97E7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA3CB  Unknown               Unknown  Unknown
+welph.x            0000000000B00E4D  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB420  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007EFD8101D545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FBF3BC76630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF3A9022E3  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF3AA0DE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF3AA0E47A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF3A8E7393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF3A8E6D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF3A8E6BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF3A8E6B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FBF3A8E8932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FBF3B00DB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FBF3A0F9545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F7B40277630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7B3EF026CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7B3F00EE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7B3F00EB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7B3EEE82F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7B3EEE7D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7B3EEE7BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7B3EEE7B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7B3EEE9932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F7B3F60EB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F7B3E6FA545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F090D2B0630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F090BF3B6CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F090C047E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F090C047B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F090BF212F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F090BF20D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F090BF20BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F090BF20B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F090BF22932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F090C647B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F090B733545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F404FC02630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F404E88D6D4  Unknown               Unknown  Unknown
+libmpi.so.12       00007F404E999E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F404E999B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F404E8732F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F404E872D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F404E872BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F404E872B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F404E874932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F404EF99B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F404E085545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F2CB5F11630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2CB4B9C6CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2CB4CA8E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2CB4CA947A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2CB4B82393  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2CB4B81D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2CB4B81BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2CB4B81B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2CB4B83932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F2CB52A8B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F2CB4394545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F449366F630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F44922FAF81  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4492406E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4492406B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F44922E02F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F44922DFD5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F44922DFBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F44922DFB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F44922E1932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F4492A06B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F4491AF2545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F2591E56630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2590AE16CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2590BEDE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2590BEDB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2590AC72F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2590AC6D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2590AC6BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2590AC6B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F2590AC8932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F25911EDB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F25902D9545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F883CEA8630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F883BB336CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F883BC3FE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F883BC4047A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F883BB19393  Unknown               Unknown  Unknown
+libmpi.so.12       00007F883BB18D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F883BB18BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F883BB18B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F883BB1A932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F883C23FB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F883B32B545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FE5AF700630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE5AE38BF92  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE5AE497E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE5AE49847A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE5AE371393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE5AE370D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE5AE370BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE5AE370B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE5AE372932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FE5AEA97B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FE5ADB83545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F24E06A3630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F24DF32E6CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F24DF43AE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F24DF43AB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F24DF3142F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F24DF313D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F24DF313BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F24DF313B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F24DF315932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F24DFA3AB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F24DEB26545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F3FB012C630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3FAEDB7A8D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3FAEEC3E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3FAEEC3B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3FAED9D2F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3FAED9CD5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3FAED9CBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3FAED9CB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3FAED9E932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F3FAF4C3B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F3FAE5AF545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FA2A6163630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA2A4DEE6CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA2A4EFAE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA2A4EFB47A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA2A4DD4393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA2A4DD3D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA2A4DD3BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA2A4DD3B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FA2A4DD5932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FA2A54FAB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FA2A45E6545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F22AE805630  Unknown               Unknown  Unknown
+libc.so.6          00007F22ACD49767  Unknown               Unknown  Unknown
+libmpi.so.12       00007F22AD491105  Unknown               Unknown  Unknown
+libmpi.so.12       00007F22AD59CE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F22AD59CB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F22AD4762F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F22AD475D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F22AD475BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F22AD475B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F22AD477932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F22ADB9CB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F22ACC88545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F3DDECF6630  Unknown               Unknown  Unknown
+libpthread.so.0    00007F3DDECF56FD  Unknown               Unknown  Unknown
+welph.x            0000000000AC97E7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA3CB  Unknown               Unknown  Unknown
+welph.x            0000000000B00E4D  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB450  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F3DDD179545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F2529736630  Unknown               Unknown  Unknown
+libc.so.6          00007F2527C8E5B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F2527BB9545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FB996E60630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB995AEB6CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB995BF7E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB995BF847A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB995AD1393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB995AD0D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB995AD0BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB995AD0B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB995AD2932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FB9961F7B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FB9952E3545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007EFC1C089630  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC1AD14669  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC1AE20E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC1AE2147A  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC1ACFA393  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC1ACF9D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC1ACF9BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC1ACF9B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFC1ACFB932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007EFC1B420B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007EFC1A50C545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FDCF9F37630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCF8BC26D4  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCF8CCEE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCF8CCF47A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCF8BA8393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCF8BA7D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCF8BA7BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCF8BA7B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FDCF8BA9932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FDCF92CEB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FDCF83BA545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FE05FA15630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE05E6A06CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE05E7ACE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE05E7AD47A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE05E686393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE05E685D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE05E685BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE05E685B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE05E687932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FE05EDACB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FE05DE98545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F0785FBE630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0784C4965E  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0784D55E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0784D55B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0784C2F2F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0784C2ED5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0784C2EBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0784C2EB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0784C30932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F0785355B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F0784441545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007EFE819B3630  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFE8063EA8D  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFE8074AE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFE8074AB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFE806242F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFE80623D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFE80623BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFE80623B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007EFE80625932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007EFE80D4AB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007EFE7FE36545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FB42AF3B630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB429BC66CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB429CD2E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB429CD2B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB429BAC2F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB429BABD5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB429BABBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB429BABB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FB429BAD932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FB42A2D2B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FB4293BE545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FD241668630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD2402F36CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD2403FFE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD24040047A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD2402D9393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD2402D8D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD2402D8BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD2402D8B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FD2402DA932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FD2409FFB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FD23FAEB545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FCE59A68630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FCE586F3F81  Unknown               Unknown  Unknown
+libmpi.so.12       00007FCE587FFE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FCE5880047A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FCE586D9235  Unknown               Unknown  Unknown
+libmpi.so.12       00007FCE586D8D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FCE586D8BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FCE586D8B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FCE586DA932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FCE58DFFB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FCE57EEB545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F3DA6F66630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3DA5BF16CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3DA5CFDE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3DA5CFE47A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3DA5BD7393  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3DA5BD6D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3DA5BD6BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3DA5BD6B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3DA5BD8932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F3DA62FDB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F3DA53E9545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F48658BE630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F48645496D4  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4864655E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F486465647A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F486452F393  Unknown               Unknown  Unknown
+libmpi.so.12       00007F486452ED5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F486452EBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F486452EB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F4864530932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F4864C55B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F4863D41545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FF01F3C3630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF01E04E6CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF01E15AE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF01E15B47A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF01E034393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF01E033D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF01E033BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF01E033B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF01E035932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FF01E75AB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FF01D846545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F5CF58D6630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F5CF45616CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F5CF466DE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F5CF466DB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F5CF45472F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F5CF4546D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F5CF4546BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F5CF4546B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F5CF4548932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F5CF4C6DB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F5CF3D59545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F7F3273A630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7F313C56CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7F314D1E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7F314D247A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7F313AB393  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7F313AAD5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7F313AABDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7F313AAB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F7F313AC932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F7F31AD1B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F7F30BBD545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F05AFA0C630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F05AE6976CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007F05AE7A3E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F05AE7A447A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F05AE67D393  Unknown               Unknown  Unknown
+libmpi.so.12       00007F05AE67CD5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F05AE67CBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F05AE67CB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F05AE67E932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F05AEDA3B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F05ADE8F545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FC700CDB630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FC6FF9666CD  Unknown               Unknown  Unknown
+libmpi.so.12       00007FC6FFA72E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FC6FFA72B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FC6FF94C2F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007FC6FF94BD5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FC6FF94BBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FC6FF94BB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FC6FF94D932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FC700072B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FC6FF15E545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FECA9142630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FECA7DCD65E  Unknown               Unknown  Unknown
+libmpi.so.12       00007FECA7ED9E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FECA7ED9B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007FECA7DB32F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007FECA7DB2D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FECA7DB2BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FECA7DB2B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FECA7DB4932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FECA84D9B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FECA75C5545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F70502A5630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F704EF3065E  Unknown               Unknown  Unknown
+libmpi.so.12       00007F704F03CE39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F704F03CB32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F704EF162F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F704EF15D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F704EF15BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F704EF15B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F704EF17932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F704F63CB1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F704E728545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FF28E15E630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CFA6F45  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CDEA2E8  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CEF5E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CEF647A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CDCF393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CDCED5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CDCEBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CDCEB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FF28CDD0932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FF28D4F5B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FF28C5E1545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007FE88D412630  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE88C09D665  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE88C1A9E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE88C1AA47A  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE88C083393  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE88C082D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE88C082BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE88C082B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007FE88C084932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007FE88C7A9B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007FE88B895545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F301220E630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3010E99A8D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3010FA5E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3010FA647A  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3010E7F393  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3010E7ED5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3010E7EBDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3010E7EB0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F3010E80932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F30115A5B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F3010691545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F0AF4A42630  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF3757E46  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF3887FD0  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF36CDFBC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF37D9E39  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF37D9B32  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF36B32F9  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF36B2D5D  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF36B2BDC  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF36B2B0C  Unknown               Unknown  Unknown
+libmpi.so.12       00007F0AF36B4932  Unknown               Unknown  Unknown
+libmpifort.so.12   00007F0AF3DD9B1C  Unknown               Unknown  Unknown
+welph.x            0000000000829653  Unknown               Unknown  Unknown
+welph.x            000000000080EA28  Unknown               Unknown  Unknown
+welph.x            00000000008C7D85  Unknown               Unknown  Unknown
+welph.x            0000000000738619  Unknown               Unknown  Unknown
+welph.x            0000000000661CDB  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F0AF2EC5545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F4B21FF2630  Unknown               Unknown  Unknown
+libpthread.so.0    00007F4B21FF16FD  Unknown               Unknown  Unknown
+welph.x            0000000000AC97E7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA3CB  Unknown               Unknown  Unknown
+welph.x            0000000000B00E4D  Unknown               Unknown  Unknown
+welph.x            00000000007CB3E4  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F4B20475545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown
+forrtl: error (69): process interrupted (SIGINT)
+Image              PC                Routine            Line        Source             
+welph.x            0000000000B7A435  Unknown               Unknown  Unknown
+welph.x            0000000000B78057  Unknown               Unknown  Unknown
+welph.x            0000000000B26F84  Unknown               Unknown  Unknown
+welph.x            0000000000B26D96  Unknown               Unknown  Unknown
+welph.x            0000000000AA8F59  Unknown               Unknown  Unknown
+welph.x            0000000000AB1B6E  Unknown               Unknown  Unknown
+libpthread.so.0    00007F2DC2963630  Unknown               Unknown  Unknown
+libc.so.6          00007F2DC0EBB5B7  Unknown               Unknown  Unknown
+welph.x            0000000000ACA40C  Unknown               Unknown  Unknown
+welph.x            0000000000B04216  Unknown               Unknown  Unknown
+welph.x            0000000000AFF813  Unknown               Unknown  Unknown
+welph.x            00000000007CB356  Unknown               Unknown  Unknown
+welph.x            00000000006046E4  Unknown               Unknown  Unknown
+welph.x            00000000006CE230  Unknown               Unknown  Unknown
+welph.x            0000000000661CA7  Unknown               Unknown  Unknown
+welph.x            000000000052D001  Unknown               Unknown  Unknown
+welph.x            00000000004708D8  Unknown               Unknown  Unknown
+welph.x            00000000004FAACD  Unknown               Unknown  Unknown
+welph.x            000000000044DE5E  Unknown               Unknown  Unknown
+libc.so.6          00007F2DC0DE6545  Unknown               Unknown  Unknown
+welph.x            000000000044DD69  Unknown               Unknown  Unknown

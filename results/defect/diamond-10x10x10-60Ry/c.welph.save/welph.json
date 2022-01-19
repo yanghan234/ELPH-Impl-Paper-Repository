@@ -1,0 +1,37 @@
+{
+  "runjob": {
+    "startdate": "12Jun2021",
+    "starttime": " 1:37:54",
+    "completed": false
+  },
+  "software": {
+    "package": "WEST",
+    "program": "WELPH",
+    "version": "3.1.1",
+    "website": "http://www.west-code.org",
+    "citation": "M. Govoni et al., J. Chem. Theory Comput. 11, 2680 (2015).",
+    "qeversion": "6.1",
+    "qesvn": "13369"
+  },
+  "config": {
+    "io": {
+      "islittleendian": true
+    }
+  },
+  "parallel": {
+    "nranks": 400,
+    "nimage": 2,
+    "npool": 1,
+    "nbgrp": 1,
+    "nrg": 200,
+    "nproc": 400,
+    "nthreads": 1
+  },
+  "input": {
+    "input_west": {
+      "qe_prefix": "c",
+      "west_prefix": "c",
+      "outdir": "./"
+    }
+  }
+}

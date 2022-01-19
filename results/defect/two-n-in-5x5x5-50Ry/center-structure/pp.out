@@ -1,0 +1,147 @@
+
+     Program POST-PROC v.6.1 (svn rev. 13369) starts on 11Jan2021 at  9:59:15 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI & OpenMP), running on      80 processor cores
+     Number of MPI processes:                80
+     Threads/MPI process:                     1
+     R & G space division:  proc/nbgrp/npool/nimage =      80
+
+     Reading data from directory:
+     ./n2.save
+
+   Info: using nr1, nr2, nr3 values from input
+
+   Info: using nr1, nr2, nr3 values from input
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation      = PBE ( 1  4  3  4 0 0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+     Message from routine readpp:
+     file ./n2.save/C_ONCV_PBE-1.0.upf not found
+     Message from routine readpp:
+     file ./n2.save/N_ONCV_PBE-1.0.upf not found
+ 
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          96      96     23                 5550     5550     689
+     Max          97      97     24                 5553     5553     695
+     Sum        7685    7685   1917               444105   444105   55507
+ 
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =495
+     Writing data to file  wfc_K001_B495
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =496
+     Writing data to file  wfc_K001_B496
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =497
+     Writing data to file  wfc_K001_B497
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =498
+     Writing data to file  wfc_K001_B498
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =499
+     Writing data to file  wfc_K001_B499
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =500
+     Writing data to file  wfc_K001_B500
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =501
+     Writing data to file  wfc_K001_B501
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =502
+     Writing data to file  wfc_K001_B502
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =503
+     Writing data to file  wfc_K001_B503
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =504
+     Writing data to file  wfc_K001_B504
+
+     Calling punch_plot, plot_num =   7
+
+     Plotting k_point =   1  band =505
+     Writing data to file  wfc_K001_B505
+     Reading data from file  wfc_K001_B495
+
+     Writing data to be plotted to file wfc_K001_B495.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B496
+
+     Writing data to be plotted to file wfc_K001_B496.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B497
+
+     Writing data to be plotted to file wfc_K001_B497.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B498
+
+     Writing data to be plotted to file wfc_K001_B498.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B499
+
+     Writing data to be plotted to file wfc_K001_B499.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B500
+
+     Writing data to be plotted to file wfc_K001_B500.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B501
+
+     Writing data to be plotted to file wfc_K001_B501.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B502
+
+     Writing data to be plotted to file wfc_K001_B502.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B503
+
+     Writing data to be plotted to file wfc_K001_B503.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B504
+
+     Writing data to be plotted to file wfc_K001_B504.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+     Reading data from file  wfc_K001_B505
+
+     Writing data to be plotted to file wfc_K001_B505.cube
+     Plot Type: 3D                     Output format: Gaussian cube
+ 
+     POST-PROC    :    15.09s CPU        34.00s WALL
+
+ 
+   This run was terminated on:   9:59:49  11Jan2021            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

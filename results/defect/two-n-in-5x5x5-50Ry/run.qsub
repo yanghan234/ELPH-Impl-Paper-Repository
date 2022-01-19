@@ -1,0 +1,51 @@
+#!/bin/bash
+#SBATCH --job-name=n2-5-50
+#SBATCH --output=test_sbatch.out
+#SBATCH --error=test_sbatch.err
+#SBATCH --time=24:00:00
+#SBATCH --account=pi-gagalli
+#SBATCH --partition=gagalli-ivyb
+##SBATCH --qos=gagalli-debug
+#SBATCH --nodes=15
+#SBATCH --mail-user=yanghan@uchicago.edu
+#SBATCH --mail-type=ALL
+#SBATCH --ntasks-per-node=20
+##SBATCH --constraint=e5-2680v2
+
+# LOAD MODULE ENVIRONMENT
+#module load  espresso/6.0-west-2.0+intelmpi-5.1+intel-16.0
+#
+module unload intelmpi intel mkl Anaconda3
+module load intelmpi/5.1+intel-16.0 mkl fftw3/3.3.5+intelmpi-5.1+intel-16.0
+# RUN JOB BELOW
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < relax-spin.in >& relax-spin.out
+# mpirun -np 140 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x < relax-nospin.in >& relax-nospin.out
+# mpirun -np 80 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pp.x < pp.in >& pp.out
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x -nk 4 < nscf8.in >& nscf8.out
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x -nk 4 < nscf100.in >& nscf100.out
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x -nk 4 < nscf150.in >& nscf150.out
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x -nk 4 < scf100.in >& scf100.out
+# mpirun -np 40 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/pw.x -nk 4 < scf200.in >& scf200.out
+# mpirun -np 140 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wstat.x -nimage 5 -i wstat.in >& wstat.out
+# mpirun -np 320 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/wfreq.x -nimage 16 -i wfreq.in >& wfreq.out
+# cp o-* n2.wfreq.save/
+
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph200.XP.in >& welph200.XP.out
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph200.S.in >&  welph200.S.out
+# mv b.welph.save b.welph.save.pdep200
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph400.XP.in >& welph400.XP.out
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph400.S.in >&  welph400.S.out
+# mv b.welph.save b.welph.save.pdep400
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph600.XP.in >& welph600.XP.out
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph600.S.in >&  welph600.S.out
+# mv b.welph.save b.welph.save.pdep600
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph800.XP.in >& welph800.XP.out
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph800.S.in >&  welph800.S.out
+# mv b.welph.save b.welph.save.pdep800
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph1000.XP.in >& welph1000.XP.out
+# mpirun -np 200 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph1000.S.in >&  welph1000.S.out
+# mv b.welph.save b.welph.save.pdep1000
+
+mpirun -np 300 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph1200.XP.in >& welph1200.XP.out
+mpirun -np 300 /project2/gagalli/yanghan/midway1/qe-6.1-kWest/bin/welph.x -nimage 5 -i welph1200.S.in >&  welph1200.S.out
+mv n2.welph.save n2.welph.save.pdep1200
