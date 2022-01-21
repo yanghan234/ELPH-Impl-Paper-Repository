@@ -1,7 +1,3 @@
 .env
-.ipynb_checkpoints/
-results/defect/two-B-in-5x5x5-50Ry/.ipynb_checkpoints
-results/verification/diamond-3x3x3-convergence/.ipynb_checkpoints
-results/verification/diamond-4x4x4-zpr-at-gw/.ipynb_checkpoints
-results/verification/diamond-6x6x6-convergence/.ipynb_checkpoints
-manuscript-final/.DS_Store
+**/.ipynb_checkpoints/
+**/.DS_Store
